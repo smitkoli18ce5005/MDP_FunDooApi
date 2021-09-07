@@ -27,6 +27,7 @@ paths:
           name: id
           required: true
           type: string
+          example: 613773b5b1ced61b488b7404
           description: Model id
       responses:
         200:
@@ -43,17 +44,20 @@ paths:
         - application/json
       parameters:
         - in: body
-          name: email
+          name: credentials
           required: true
-          type: string
-          example: smit@gmail.com
-          description: user email id
-        - in: body
-          name: password
-          required: true
-          type: string
-          example: Smit@123
-          description: user password
+          schema:
+            type: object
+            required:
+              - email
+              - password
+            properties:
+              email:
+                type: string
+                example: smit@gmail.com
+              password:
+                type: string
+                example: Smit@123
       responses:
         200:
           description: Successfully logged in
@@ -69,29 +73,28 @@ paths:
         - application/json
       parameters:
         - in: body
-          name: firstName
+          name: userData
           required: true
-          type: string
-          example: Smit
-          description: First name of user
-        - in: body
-          name: lastName
-          required: true
-          type: string
-          example: Koli
-          description: Last name of user
-        - in: body
-          name: email
-          required: true
-          type: string
-          example: smit@gmail.com
-          description: user email id
-        - in: body
-          name: password
-          required: true
-          type: string
-          example: Smit@123
-          description: user password
+          schema:
+            type: object
+            required:
+              - firstName
+              - lastName
+              - email
+              - password
+            properties:
+              firstName:
+                type: string
+                example: Smit
+              lastName:
+                type: string
+                example: Koli
+              email:
+                type: string
+                example: smit@gmail.com
+              password:
+                type: string
+                example: Smit@123
       responses:
         200:
           description: Successfully signed up
