@@ -1,10 +1,19 @@
 require('dotenv').config()
+
 const express = require('express')
+const app = express()
+
 const mongoose = require('mongoose')
 const userRoute = require('./routes/userRoute')
 const logger = require('./logs/userLogger')
 
-const app = express()
+const swaggerUi = require('swagger-ui-express');
+const YAML = require('yamljs');
+const swaggerDocument = YAML.load('./api_docs/userDocs.yaml');
+
+app.use('/user/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
+
 
 mongoose.connect(process.env.USER_DATABASE_URI)
 const db = mongoose.connection

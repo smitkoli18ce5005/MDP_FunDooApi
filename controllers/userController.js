@@ -7,7 +7,7 @@ let userController = {
         try {
             const allUsers = await userModel.find();
             logger.log('info', `Status: ${res.statusCode}: Successfully returned all users`)
-            return res.status(201).json(allUsers);
+            return res.status(200).json(allUsers);
           } catch (error) {
             logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             return res.status(500).json({ message: error.messages });
@@ -98,7 +98,7 @@ let userController = {
             try {
                 const addedNewUser = await newUser.save()
                 logger.log('info', `Status: ${res.statusCode}: Successfully signed up`)
-                res.status(201).json(newUser)
+                res.status(200).json(newUser)
             } catch (error) {
                 logger.log('error', `Status: 400: ${error.message}`)
                 res.status(400).json({ message: error.message })

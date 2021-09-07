@@ -1,0 +1,101 @@
+swagger: "2.0"
+info:
+  title: FunDoo API
+  description: fundooNotes
+schemes:
+  - https
+paths:
+  /users:
+    get:
+      summary: Find all instances of the model.
+      description: Returns all instances of users in userModel.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Successfully returned all users
+        500:
+          description: Internal server error
+  /users/{id}:
+    delete:
+      summary: Delete a model instance by id from the data source.
+      description: Deletes the instance of user in userModel matching the provided id.
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+          description: Model id
+      responses:
+        200:
+          description: User deleted
+        404:
+          description: User not found
+        500:
+          description: Internal server error
+  /users/login:
+    post:
+      summary: User Login
+      description: Login a user with email and password
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: email
+          required: true
+          type: string
+          example: smit@gmail.com
+          description: user email id
+        - in: body
+          name: password
+          required: true
+          type: string
+          example: Smit@123
+          description: user password
+      responses:
+        200:
+          description: Successfully logged in
+        404:
+          description: User not found
+        500:
+          description: Internal server error
+  /users/userSignup:
+    post:
+      summary: User Sign Up
+      description: Register a user with first name, last name, email and password
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: firstName
+          required: true
+          type: string
+          example: Smit
+          description: First name of user
+        - in: body
+          name: lastName
+          required: true
+          type: string
+          example: Koli
+          description: Last name of user
+        - in: body
+          name: email
+          required: true
+          type: string
+          example: smit@gmail.com
+          description: user email id
+        - in: body
+          name: password
+          required: true
+          type: string
+          example: Smit@123
+          description: user password
+      responses:
+        200:
+          description: Successfully signed up
+        422:
+          description: User already exists
+        500:
+          description: Internal server error
