@@ -1,12 +1,15 @@
 const userModel = require('../models/userModel')
 const {check, validationResult} = require('express-validator')
+const logger = require('../logs/userLogger')
 
 let userController = {
     async getAllUsers(req, res) {
         try {
             const allUsers = await userModel.find();
+            logger.log('info', `Status: ${res.statusCode}: Successfully returned all users`)
             return res.status(201).json(allUsers);
           } catch (error) {
+            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             return res.status(500).json({ message: error.messages });
           }
     },
@@ -15,17 +18,16 @@ let userController = {
         try {
             const user = await userModel.find({email: req.body.email, password: req.body.password})
             if(user.length != 0) {
-                return res.status(201).json(user.length)
+                logger.log('info', `Status: ${res.statusCode}: Successfully logged in`)
+                return res.status(200).json(user)
             } else {
+                logger.log('error', `Status: 404: User not found`)
                 return res.status(404).json({message: "User not found"})
             }
         } catch (error) {
+            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             return res.status(500).json({ message: error.messages });
         }
-    },
-
-    async validateUser(req, res) {
-        res.json({message:"hello"})
     },
 
     validationRules(){
@@ -60,8 +62,10 @@ let userController = {
         const errors = validationResult(req)
 
         if(errors.length != 0){
+            logger.log('info', `Status: ${res.statusCode}: Entered data is valid`)
             next()
         } else {
+            logger.log('error', `Status: 422: ${errors}`)
             return res.json(errors)
         }
     },
@@ -71,6 +75,7 @@ let userController = {
         try{
             user = await userModel.find({email:req.body.email})
         } catch (err) {
+            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             return res.status(500).json({ message:err.message })
         }
 
@@ -87,13 +92,16 @@ let userController = {
         })
 
         if(res.user.length != 0) {
+            logger.log('error', `Status: 422: User already exists`)
             res.status(422).json({message: "User already exists"})
         } else {
             try {
                 const addedNewUser = await newUser.save()
+                logger.log('info', `Status: ${res.statusCode}: Successfully signed up`)
                 res.status(201).json(newUser)
             } catch (error) {
-                res.status(400).json({ message: err.message })
+                logger.log('error', `Status: 400: ${error.message}`)
+                res.status(400).json({ message: error.message })
             }
         }
     },
@@ -101,8 +109,10 @@ let userController = {
     async deleteUser(req, res) {
         try {
             await res.user.remove();
+            logger.log('info', `Status: ${res.statusCode}: Successfully deleted user`)
             res.json({ message: "Deleted user" });
         } catch (error) {
+            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             res.status(500).json({ message: error.message });
         }
     },
@@ -112,11 +122,14 @@ let userController = {
         try {
           user = await userModel.findById(req.params.id);
           if (user == null) {
+            logger.log('error', `Status: 404: User not found`)
             return res.status(404).json({ message: "User not found" });
           }
         } catch (error) {
+            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
           return res.status(500).json({ message: error.message });
         }
+        
         res.user = user;
         next();
     }

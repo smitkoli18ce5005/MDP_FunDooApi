@@ -1,0 +1,67 @@
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:54:57.245Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:54:57.265Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-07T12:55:09.210Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:55:10.912Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:55:10.931Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:56:11.850Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:56:11.870Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:56:13.474Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:56:13.492Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-07T12:56:39.143Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:57:03.545Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:57:03.567Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:57:05.198Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:57:05.221Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-07T12:57:05.636Z"}
+{"level":"error","message":"Status: 200: User not found","timestamp":"2021-09-07T12:57:09.427Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:57:41.313Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:57:41.335Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:57:42.920Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:57:42.938Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-07T12:57:44.665Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:59:57.685Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:59:57.705Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T12:59:59.231Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T12:59:59.249Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T13:00:27.980Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:01:08.409Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:01:08.428Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:01:09.880Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:01:09.899Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T13:01:11.311Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:04:23.059Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:04:23.079Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:04:24.822Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:04:24.842Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T13:04:28.043Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-07T13:04:28.057Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:05:40.916Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:05:40.934Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:05:42.514Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:05:42.533Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T13:05:44.111Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-07T13:05:44.126Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:08:17.510Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:08:17.529Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:08:19.092Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:08:19.111Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-07T13:08:21.338Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:08:30.732Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:08:30.751Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:08:32.217Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:08:32.235Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-07T13:08:33.151Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-07T13:08:33.169Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:09:18.815Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:09:18.833Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:09:20.345Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:09:20.363Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T13:09:23.108Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-07T13:09:23.123Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-07T13:10:05.040Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-07T13:10:14.270Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:11:32.956Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:11:32.971Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-07T13:11:34.713Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-07T13:11:34.730Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-07T13:11:38.668Z"}
