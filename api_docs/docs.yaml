@@ -2,8 +2,9 @@ swagger: "2.0"
 info:
   title: FunDoo API
   description: fundooNotes
+  version: 1.0.0
 schemes:
-  - https
+  - http
 paths:
   /user:
     get:
@@ -71,7 +72,7 @@ paths:
           description: User not found
         500:
           description: Internal server error
-  /user/userSignup:
+  /user/userSignUp:
     post:
       tags:
         - user

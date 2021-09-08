@@ -5,3 +5,4 @@
 * Added documentation for user api using swagger
 * Updated documentation for user api in swagger
 * Added Readme File :)
+* Fixed bug for swagger documentation

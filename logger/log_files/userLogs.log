@@ -11,3 +11,20 @@
 {"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T17:00:47.353Z"}
 {"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-07T17:00:47.356Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T04:34:38.661Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T04:53:15.690Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T04:56:33.808Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:40.646Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:45.484Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:46.176Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:46.534Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.117Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.503Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.999Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:57:02.973Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:02:32.582Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T05:04:21.206Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T05:05:05.745Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:05:14.658Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:05:42.660Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:05:42.664Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T05:06:51.356Z"}

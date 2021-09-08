@@ -68,3 +68,63 @@
 {"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:39:03.762Z"}
 {"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:39:05.119Z"}
 {"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:39:05.137Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:50:23.584Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:50:23.603Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T04:53:15.690Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:55:51.903Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:55:51.923Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:55:54.816Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:55:54.837Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:56:04.187Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:56:04.206Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T04:56:05.591Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T04:56:05.608Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T04:56:33.808Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:40.646Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:45.484Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:46.176Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:46.534Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.117Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.503Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:56:47.999Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T04:57:02.973Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:00:34.546Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:00:34.563Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:00:35.866Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:00:35.883Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:01:43.348Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:01:43.367Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:01:44.802Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:01:44.822Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:01:58.448Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:01:58.469Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:01:59.936Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:01:59.956Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:02:32.582Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:02:44.837Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:02:44.856Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:02:47.960Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:02:47.979Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:03:12.067Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:03:12.087Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:03:13.346Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:03:13.365Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:04:13.021Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:04:13.040Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:04:14.337Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:04:14.355Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T05:04:21.206Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:04:55.243Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:04:55.265Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:04:56.842Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:04:56.860Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T05:05:05.745Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:05:14.658Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:05:42.660Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:05:42.664Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T05:06:51.356Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T05:07:10.437Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:07:58.142Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:07:58.161Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T05:08:00.050Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T05:08:00.070Z"}
