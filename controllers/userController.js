@@ -1,63 +1,39 @@
-const userModel = require('../models/userModel')
+const userService = require('../services/userService')
 const {check, validationResult} = require('express-validator')
 const logger = require('../logger/userLogger')
 
 let userController = {
+
+    //to return all users
     async getAllUsers(req, res) {
         try {
-            const allUsers = await userModel.find();
-            logger.log('info', `Status: ${res.statusCode}: Successfully returned all users`)
-            return res.status(200).json(allUsers);
-          } catch (error) {
-            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
-            return res.status(500).json({ message: error.messages });
+            const allUsers = await userService.returnAllUsers()
+            res.status(200).json(allUsers)
+          } catch (error) {   
+            res.status(500).json({ message: error.messages })
           }
     },
 
+    //to return user by credentials (email and password)
     async getUserByCredentials(req, res) {
         try {
-            const user = await userModel.find({email: req.body.email, password: req.body.password})
+            const user = await userService.returnUserByCredentials(req, res)
             if(user.length != 0) {
-                logger.log('info', `Status: ${res.statusCode}: Successfully logged in`)
-                return res.status(200).json(user)
+                res.status(200).json(user)
             } else {
-                logger.log('error', `Status: 404: User not found`)
-                return res.status(404).json({message: "User not found"})
+                res.status(404).json({message: "User not found"})
             }
         } catch (error) {
-            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
-            return res.status(500).json({ message: error.messages });
+            res.status(500).json({ message: error.messages });
         }
     },
 
+    //Validation rules
     validationRules(){
-        return [
-            check("firstName")
-            .not().isEmpty()
-            .withMessage("First Name is required")
-            .isAlpha()
-            .withMessage("First Name should only contain alphabetical characters")
-            .isLength({min:3})
-            .withMessage("First Name should atleast have 3 characters"),
-    
-            check("lastName")
-            .not().isEmpty()
-            .withMessage("Last Name is required")
-            .isAlpha()
-            .withMessage("Last Name should only contain alphabetical characters")
-            .isLength({min:3})
-            .withMessage("Last Name should atleast have 3 characters"),
-    
-            check("email")
-            .isEmail()
-            .withMessage("Please enter a valid Email-ID"),
-    
-            check("password")
-            .isLength({min:3})
-            .withMessage("Password must have atleast 3 characters")
-        ]
+        return userService.returnValidationRules()
     },
 
+    //to validate user
     validateUser(req, res, next) {
         const errors = validationResult(req)
 
@@ -72,68 +48,63 @@ let userController = {
         } 
     },
 
+    //to return user by email
     async getUserByEmail(req, res, next){
         let user
         try{
-            user = await userModel.find({email:req.body.email})
+            user = await userService.returnUserByEmail(req, res)
         } catch (error) {
-            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             return res.status(500).json({ message:error.message })
         }
-
         res.user = user
         next()
     },
 
+    //to add new user
     async addNewUser(req, res) {
-        const newUser = new userModel({
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            email: req.body.email,
-            password: req.body.password
-        })
+        const newUser = userService.createUser(req, res)
 
-        if(res.user.length != 0) {
-            logger.log('error', `Status: 422: User already exists`)
+        if(res.user.length != 0) {     
             res.status(422).json({message: "User already exists"})
         } else {
             try {
-                const addedNewUser = await newUser.save()
-                logger.log('info', `Status: ${res.statusCode}: Successfully signed up`)
-                res.status(200).json(newUser)
+                const addedNewUser = await userService.saveUser(newUser)
+                res.status(200).json(addedNewUser)
             } catch (error) {
-                logger.log('error', `Status: 400: ${error.message}`)
-                res.status(400).json({ message: error.message })
+                res.status(500).json({ message: error.message })
             }
         }
     },
 
+    //to delete user
     async deleteUser(req, res) {
         try {
-            await res.user.remove();
-            logger.log('info', `Status: ${res.statusCode}: Successfully deleted user`)
+            await userService.removeUser(res.user)
             res.json({ message: "Deleted user" });
         } catch (error) {
-            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
             res.status(500).json({ message: error.message });
         }
     },
 
+    //to return user by id
     async getUserByID(req, res, next) {
         let user;
         try {
-          user = await userModel.findById(req.params.id);
+          user = await userService.returnUserByID(req, res)
           if (user == null) {
-            logger.log('error', `Status: 404: User not found`)
             return res.status(404).json({ message: "User not found" });
           }
         } catch (error) {
-            logger.log('error', `Status: ${res.statusCode}: ${error.message}`)
           return res.status(500).json({ message: error.message });
         }
-        
         res.user = user;
         next();
+    },
+
+    displayUser(req, res) {
+        if(res.user.length != 0){
+            res.status(200).json(res.user)
+        }
     }
 }
 

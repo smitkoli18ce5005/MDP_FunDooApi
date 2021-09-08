@@ -18,3 +18,36 @@
 {"level":"error","message":"Status: 400: Cannot set headers after they are sent to the client","timestamp":"2021-09-08T06:08:24.269Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:10:57.300Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:11:05.537Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:07.764Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:08.485Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:08.903Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.100Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.396Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.871Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.028Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.339Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.519Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.694Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.885Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:58.425Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:59.040Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:59.290Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:32.661Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.398Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.567Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.738Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:55.123Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:56.213Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:59.481Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:59:18.771Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:36:19.607Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:39:08.932Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:40:51.489Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:44:37.242Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-08T11:44:43.901Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:49:49.266Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T11:50:08.931Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T12:05:04.910Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93da37f94ba2\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:35.364Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"api-docs\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:49.670Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T12:16:55.524Z"}

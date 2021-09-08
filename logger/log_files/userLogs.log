@@ -60,3 +60,106 @@
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T06:11:25.044Z"}
 {"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-08T06:11:38.385Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T06:11:43.823Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:41:39.748Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:41:46.143Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:41:52.130Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:43:38.665Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:43:58.092Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:48:49.455Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:49:23.361Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:49:24.007Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:49:24.326Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:49:46.768Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:07.764Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:07.764Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:08.485Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:08.485Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:08.902Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:08.903Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:09.100Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.100Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:09.396Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.396Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:09.871Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:09.871Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:10.028Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.028Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:10.339Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.339Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:10.519Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.519Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:10.694Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.694Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:10.885Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:10.885Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:58.425Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:58.425Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:59.040Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:59.040Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:57:59.289Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:57:59.290Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:32.661Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:32.661Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:33.398Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.398Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:33.567Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.567Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:33.738Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:33.738Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:55.123Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:55.123Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:56.213Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:56.213Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:58:59.480Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:58:59.481Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:59:18.771Z"}
+{"level":"error","message":"Status: 500: allUsers is not defined","timestamp":"2021-09-08T10:59:18.771Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:59:46.403Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T10:59:51.275Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:02:15.904Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:02:16.654Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:02:16.821Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:02:16.988Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:02:17.175Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T11:08:50.227Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T11:13:12.920Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T11:13:15.831Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:36:19.597Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:36:19.607Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:38:37.768Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:38:39.748Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:38:54.465Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:39:08.921Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:39:08.932Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:39:48.100Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:40:51.480Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:40:51.489Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:43:49.204Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:44:37.233Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:44:37.242Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-08T11:44:43.901Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:45:04.500Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-08T11:45:04.511Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T11:49:49.257Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T11:49:49.266Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:49:58.225Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-08T11:50:06.839Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T11:50:08.931Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:50:16.209Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-08T11:53:52.569Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T11:54:46.043Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:04:49.391Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T12:05:02.483Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-08T12:05:02.492Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T12:05:04.908Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T12:05:04.910Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:05:10.423Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:10:40.648Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:11:00.867Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93da37f94ba2\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:35.364Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:12:39.239Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"api-docs\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:49.670Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:15:15.510Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T12:16:55.524Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:17:13.738Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:17:46.143Z"}

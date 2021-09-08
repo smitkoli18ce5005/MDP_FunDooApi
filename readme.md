@@ -8,3 +8,4 @@
 * Fixed bug for swagger documentation
 * Bug fix for user api 
 * Created notes API for adding, updating and deleting notes
+* Added service for user api
