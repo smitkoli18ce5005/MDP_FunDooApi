@@ -68,3 +68,19 @@
 {"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-08T08:54:00.023Z"}
 {"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T08:54:21.433Z"}
 {"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-08T08:54:21.438Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:29:14.979Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:53:37.466Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T12:53:43.256Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:53:54.360Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:59:37.834Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"addNotes\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-08T13:01:51.347Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T13:02:00.819Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-08T13:02:00.827Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:02:21.048Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T13:02:47.432Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-08T13:02:47.439Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T13:02:59.819Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:03:11.579Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T13:03:23.565Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-08T13:03:23.567Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:03:30.955Z"}

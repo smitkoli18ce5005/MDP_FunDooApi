@@ -148,6 +148,50 @@ paths:
         500:
           description: Internal server error
   /notes/{id}:
+    get:
+      tags:
+        - notes
+      summary: Find instance of the model.
+      description: Returns instance of note in notsesModel matching the id.
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+          example: 6138590be60acd01b39cf08d
+          value: 6138590be60acd01b39cf08d
+          description: Model id
+      responses:
+        200:
+          description: Note found
+        404:
+          description: Note not found
+        500:
+          description: Internal server error
+    delete:
+      tags:
+        - notes
+      summary: Delete a model instance by id from the data source.
+      description: Deletes the instance of note in notesModel matching the provided id.
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+          example: 61386e54175d6a0438857729
+          value: 61386e54175d6a0438857729
+          description: Model id
+      responses:
+        200:
+          description: Successfully deleted note
+        404:
+          description: Note not found
+        500:
+          description: Internal server error
     patch:
       tags:
         - notes
@@ -195,28 +239,6 @@ paths:
           description: Note successfully updated
         422:
           description: Note with same title already exists
-        500:
-          description: Internal server error
-    delete:
-      tags:
-        - notes
-      summary: Delete a model instance by id from the data source.
-      description: Deletes the instance of note in notesModel matching the provided id.
-      produces:
-        - application/json
-      parameters:
-        - in: path
-          name: id
-          required: true
-          type: string
-          example: 61386e54175d6a0438857729
-          value: 61386e54175d6a0438857729
-          description: Model id
-      responses:
-        200:
-          description: Successfully deleted note
-        404:
-          description: Note not found
         500:
           description: Internal server error
   /notes/addNotes:

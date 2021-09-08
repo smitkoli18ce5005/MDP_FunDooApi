@@ -9,3 +9,4 @@
 * Bug fix for user api 
 * Created notes API for adding, updating and deleting notes
 * Added service for user api
+* Added service for notes api

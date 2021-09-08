@@ -763,3 +763,46 @@
 {"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:17:41.723Z"}
 {"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:17:41.740Z"}
 {"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:17:46.143Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:29:05.947Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:29:05.965Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:29:14.979Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:53:31.228Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:53:31.247Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:53:32.645Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:53:32.662Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:53:37.466Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T12:53:43.256Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:53:54.360Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:54:27.744Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:54:27.762Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:54:29.029Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:54:29.051Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:55:46.598Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:55:46.617Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:55:47.904Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:55:47.924Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:55:50.170Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:56:38.587Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:56:38.605Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T12:56:39.942Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T12:56:39.960Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T12:59:37.834Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T13:01:28.295Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T13:01:28.314Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T13:01:29.796Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T13:01:29.815Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T13:01:45.018Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T13:01:45.037Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-08T13:01:46.427Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-08T13:01:46.445Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"addNotes\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-08T13:01:51.347Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T13:02:00.819Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-08T13:02:00.827Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:02:21.048Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T13:02:47.432Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-08T13:02:47.439Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T13:02:59.819Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:03:11.579Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T13:03:23.565Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-08T13:03:23.567Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:03:30.955Z"}

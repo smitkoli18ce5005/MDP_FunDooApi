@@ -28,3 +28,5 @@
 {"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-08T08:39:04.807Z"}
 {"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T08:52:27.442Z"}
 {"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-08T08:54:00.023Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"addNotes\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-08T13:01:51.347Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-08T13:02:00.827Z"}

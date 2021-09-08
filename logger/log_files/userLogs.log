@@ -163,3 +163,4 @@
 {"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T12:16:55.524Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:17:13.738Z"}
 {"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:17:46.143Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:55:50.170Z"}
