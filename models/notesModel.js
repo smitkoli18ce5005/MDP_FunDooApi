@@ -11,14 +11,17 @@ const notesSchema = new mongoose.Schema({
     },
     "isPinned": {
         type: Boolean,
+        required: true,
         default: false
     },
     "isArchived": {
         type: Boolean,
+        required: true,
         default: false
     },
     "color": {
         type: String,
+        required: true,
         default: "#FFFFFF"
     }
 })

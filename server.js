@@ -11,7 +11,7 @@ const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
 const funDooAPIDocument = YAML.load('./api_docs/docs.yaml');
 
-app.use('/user/api-docs', swaggerUi.serve, swaggerUi.setup(funDooAPIDocument));
+app.use('/fundooapi/api-docs', swaggerUi.serve, swaggerUi.setup(funDooAPIDocument));
 
 mongoose.connect(process.env.USER_DATABASE_URI)
 const db = mongoose.connection

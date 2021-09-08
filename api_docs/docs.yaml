@@ -33,6 +33,7 @@ paths:
           required: true
           type: string
           example: 613773b5b1ced61b488b7404
+          value: 613773b5b1ced61b488b7404
           description: Model id
       responses:
         200:
@@ -122,5 +123,120 @@ paths:
       responses:
         200:
           description: Successfully returned all notes
+        500:
+          description: Internal server error
+  /notes/{id}:
+    patch:
+      tags:
+        - notes
+      summary: Update a model instance by id from the data source.
+      description: Updates the instance of note in notesModel matching the provided id.
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+          example: 613876af536bae5d23ee8235
+          value: 613876af536bae5d23ee8235
+          description: Model id
+        - in: body
+          name: userData
+          required: true
+          schema:
+            type: object
+            required:
+              - title
+              - description
+              - isPinned
+              - isArchived
+              - color
+            properties:
+              title:
+                type: string
+                example: Updated Note
+              description:
+                type: string
+                example: This is your updated note
+              isPinned:
+                type: boolean
+                example: true
+              isArchived:
+                type: boolean
+                example: true
+              color:
+                type: string
+                example: "#ffffff"
+      responses:
+        200:
+          description: Note successfully updated
+        422:
+          description: Note with same title already exists
+        500:
+          description: Internal server error
+    delete:
+      tags:
+        - notes
+      summary: Delete a model instance by id from the data source.
+      description: Deletes the instance of note in notesModel matching the provided id.
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+          example: 61386e54175d6a0438857729
+          value: 61386e54175d6a0438857729
+          description: Model id
+      responses:
+        200:
+          description: Successfully deleted note
+        404:
+          description: Note not found
+        500:
+          description: Internal server error
+  /notes/addNotes:
+    post:
+      tags:
+        - notes
+      summary: To add notes
+      description: Add notes with title, description, isPinned, isArchived and color
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: userData
+          required: true
+          schema:
+            type: object
+            required:
+              - title
+              - description
+              - isPinned
+              - isArchived
+              - color
+            properties:
+              title:
+                type: string
+                example: New Note
+              description:
+                type: string
+                example: This is your note
+              isPinned:
+                type: boolean
+                example: false
+              isArchived:
+                type: boolean
+                example: false
+              color:
+                type: string
+                example: #ffffff
+      responses:
+        200:
+          description: Note successfully added
+        422:
+          description: Note with same title already exists
         500:
           description: Internal server error
