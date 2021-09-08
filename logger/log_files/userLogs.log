@@ -28,3 +28,35 @@
 {"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:05:42.660Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:05:42.664Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T05:06:51.356Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-08T05:52:29.539Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:52:44.713Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:52:44.718Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:52:57.436Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-08T05:52:57.442Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T05:53:26.784Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-08T05:53:26.790Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-08T05:53:43.665Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-08T05:58:28.082Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:00:42.199Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:00:55.056Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T06:01:47.266Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:02:07.999Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:02:16.443Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:02:16.443Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:02:16.448Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:06:58.989Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:06:58.990Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:06:59.004Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:08:24.257Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:08:24.258Z"}
+{"level":"info","message":"Status: 422: Successfully signed up","timestamp":"2021-09-08T06:08:24.268Z"}
+{"level":"error","message":"Status: 400: Cannot set headers after they are sent to the client","timestamp":"2021-09-08T06:08:24.269Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:10:57.288Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:10:57.300Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:11:05.534Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:11:05.537Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-08T06:11:18.515Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-08T06:11:18.524Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T06:11:25.044Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-08T06:11:38.385Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T06:11:43.823Z"}

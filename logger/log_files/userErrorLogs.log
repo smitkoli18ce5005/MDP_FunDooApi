@@ -4,3 +4,17 @@
 {"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:02:32.582Z"}
 {"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T05:05:14.658Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:05:42.664Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T05:52:44.718Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.","timestamp":"2021-09-08T05:52:57.442Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-08T05:58:28.082Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:00:42.199Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:00:55.056Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-08T06:02:07.999Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:02:16.443Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:02:16.448Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:06:58.990Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:06:59.004Z"}
+{"level":"error","message":"Status: 422: ","timestamp":"2021-09-08T06:08:24.258Z"}
+{"level":"error","message":"Status: 400: Cannot set headers after they are sent to the client","timestamp":"2021-09-08T06:08:24.269Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:10:57.300Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-08T06:11:05.537Z"}
