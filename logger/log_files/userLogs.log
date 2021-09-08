@@ -1,0 +1,13 @@
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-07T16:55:14.211Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-07T16:55:26.750Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T16:56:40.142Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-07T16:56:40.153Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T16:58:50.799Z"}
+{"level":"error","message":"Status: 400: userModel validation failed: lastName: Path `lastName` is required.","timestamp":"2021-09-07T16:58:50.802Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T16:59:02.585Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-07T16:59:02.588Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-07T17:00:20.297Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-07T17:00:31.143Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-07T17:00:47.353Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-07T17:00:47.356Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T04:34:38.661Z"}

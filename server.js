@@ -4,16 +4,14 @@ const express = require('express')
 const app = express()
 
 const mongoose = require('mongoose')
-const userRoute = require('./routes/userRoute')
-const logger = require('./logs/userLogger')
+
+const logger = require('./logger/funDooAPILogger')
 
 const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
-const swaggerDocument = YAML.load('./api_docs/userDocs.yaml');
+const funDooAPIDocument = YAML.load('./api_docs/docs.yaml');
 
-app.use('/user/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
-
+app.use('/user/api-docs', swaggerUi.serve, swaggerUi.setup(funDooAPIDocument));
 
 mongoose.connect(process.env.USER_DATABASE_URI)
 const db = mongoose.connection
@@ -24,7 +22,11 @@ db.once('open', () => {
 })
 
 app.use(express.json())
+const userRoute = require('./routes/userRoute')
 app.use('/user', userRoute)
+
+const notesRoute = require('./routes/notesRoute')
+app.use('/notes', notesRoute)
 
 app.listen(process.env.PORT, () => {
     logger.log('info', `Server started at port ${process.env.PORT}!`)

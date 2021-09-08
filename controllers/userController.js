@@ -1,6 +1,6 @@
 const userModel = require('../models/userModel')
 const {check, validationResult} = require('express-validator')
-const logger = require('../logs/userLogger')
+const logger = require('../logger/userLogger')
 
 let userController = {
     async getAllUsers(req, res) {

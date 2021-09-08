@@ -5,8 +5,7 @@ const logger = winston.createLogger({
     format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
     defaultMeta: { service: 'user-service' },
     transports: [
-      new winston.transports.File({ filename: './logs/userErrorLogs.log', level: 'error' }),
-      new winston.transports.File({ filename: './logs/userLogs.log' }),
+      new winston.transports.File({ filename: './logger/log_files/funDooAPILogs.log' }),
     ]
 })
 
