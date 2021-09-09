@@ -69,7 +69,7 @@ let userController = {
         } else {
             try {
                 const addedNewUser = await userService.saveUser(newUser)
-                res.status(200).json(addedNewUser)
+                res.status(200).json({message: "User successfully registered"})
             } catch (error) {
                 res.status(500).json({ message: error.message })
             }

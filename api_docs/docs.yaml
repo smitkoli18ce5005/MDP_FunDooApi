@@ -6,7 +6,7 @@ info:
 schemes:
   - http
 paths:
-  /user:
+  /user/getAllUsers:
     get:
       tags:
         - user
@@ -19,7 +19,7 @@ paths:
           description: Successfully returned all users
         500:
           description: Internal server error
-  /user/{id}:
+  /user/getUser/{id}:
     get:
       tags:
         - user
@@ -42,6 +42,7 @@ paths:
           description: User not found
         500:
           description: Internal server error
+  /user/deleteUser/{id}:
     delete:
       tags:
         - user
@@ -129,12 +130,12 @@ paths:
                 example: Smit@123
       responses:
         200:
-          description: Successfully signed up
+          description: User successfully registered
         422:
           description: User already exists
         500:
           description: Internal server error
-  /notes:
+  /notes/getAllNotes:
     get:
       tags:
         - notes
@@ -147,7 +148,7 @@ paths:
           description: Successfully returned all notes
         500:
           description: Internal server error
-  /notes/{id}:
+  /notes/getNotes/{id}:
     get:
       tags:
         - notes
@@ -170,6 +171,7 @@ paths:
           description: Note not found
         500:
           description: Internal server error
+  /notes/deleteNote/{id}:
     delete:
       tags:
         - notes
@@ -192,6 +194,7 @@ paths:
           description: Note not found
         500:
           description: Internal server error
+  /notes/updateNote/{id}:
     patch:
       tags:
         - notes
@@ -276,7 +279,7 @@ paths:
                 example: false
               color:
                 type: string
-                example: #ffffff
+                example: '#ffffff'
       responses:
         200:
           description: Note successfully added

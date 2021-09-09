@@ -51,3 +51,12 @@
 {"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93da37f94ba2\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:35.364Z"}
 {"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"api-docs\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-08T12:12:49.670Z"}
 {"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-08T12:16:55.524Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:16:15.254Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:16:41.719Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:18:23.975Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93d3a37f94bas\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:38:01.496Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"613998e33ed96c8df81adcds\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:40:13.373Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:45:49.434Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93d3a37f94sa2\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:47:53.742Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:51:30.134Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:51:49.396Z"}

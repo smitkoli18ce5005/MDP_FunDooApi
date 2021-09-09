@@ -84,3 +84,39 @@
 {"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-08T13:03:23.565Z"}
 {"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-08T13:03:23.567Z"}
 {"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-08T13:03:30.955Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T03:18:50.748Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:19:09.737Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:19:39.961Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:20:03.208Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-09T05:20:03.209Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-09T05:20:06.934Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:21:08.295Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:21:43.159Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:21:43.160Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-09T05:21:43.162Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:21:57.662Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:21:57.664Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-09T05:21:57.669Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:22:10.569Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-09T05:22:31.600Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:22:48.199Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-09T05:22:48.202Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:37:34.386Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:37:41.630Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:37:44.034Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08s\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-09T05:37:46.926Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:57:16.488Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:57:30.714Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:57:43.597Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-09T05:57:43.601Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-09T05:57:46.012Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:57:55.259Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-09T05:57:55.261Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:58:02.856Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:58:32.033Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-09T05:58:32.034Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-09T05:58:32.044Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-09T05:58:52.093Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:59:45.417Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-09T05:59:45.434Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-09T05:59:58.468Z"}

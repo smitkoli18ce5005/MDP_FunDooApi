@@ -164,3 +164,36 @@
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:17:13.738Z"}
 {"level":"info","message":"Status: 200: User found","timestamp":"2021-09-08T12:17:46.143Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-08T12:55:50.170Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T04:28:45.747Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T04:28:57.967Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-09T05:15:53.057Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:16:15.254Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:16:41.715Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:16:41.719Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:17:23.175Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-09T05:17:23.183Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-09T05:18:18.769Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-09T05:18:18.772Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:18:23.975Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:18:34.724Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-09T05:37:57.795Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93d3a37f94bas\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:38:01.496Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"613998e33ed96c8df81adcds\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:40:13.373Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:45:49.422Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:45:49.434Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:45:58.167Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:47:37.382Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-09T05:47:48.888Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"61379abf74e93d3a37f94sa2\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-09T05:47:53.742Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:50:31.804Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:50:33.192Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-09T05:50:40.527Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-09T05:51:27.233Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-09T05:51:27.237Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-09T05:51:30.134Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-09T05:51:37.962Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:51:49.391Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-09T05:51:49.396Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-09T05:52:06.290Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-09T05:52:06.298Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-09T05:52:15.879Z"}
