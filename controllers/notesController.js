@@ -40,7 +40,7 @@ let notesController = {
         res.notes = notes
         next()
     },
-
+    
     async addNewNote(req, res) {
         const newNote = notesService.createNote(req, res)
         if(res.notes.length != 0) {

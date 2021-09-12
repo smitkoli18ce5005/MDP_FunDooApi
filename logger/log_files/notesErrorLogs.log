@@ -37,3 +37,5 @@
 {"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-09T05:57:46.012Z"}
 {"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-09T05:57:55.261Z"}
 {"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-09T05:58:52.093Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2021-09-09T06:12:55.629Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2021-09-09T07:13:25.344Z"}

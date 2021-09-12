@@ -1,4 +1,5 @@
 const userModel = require('../models/userModel')
+const {createToken, verifyToken} = require('../authentication/auth')
 const {check, validationResult} = require('express-validator')
 const logger = require('../logger/userLogger')
 
@@ -79,7 +80,7 @@ let userService = {
 
     //to create user object
     createUser(req, res) {
-        const newUser = new userModel({
+        const userObject = new userModel({
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             email: req.body.email,
@@ -88,7 +89,7 @@ let userService = {
         if(res.user.length != 0) {
             logger.log('error', `Status: 422: User already exists`)
         }
-        return newUser
+        return userObject
     },
 
     //Validation rules

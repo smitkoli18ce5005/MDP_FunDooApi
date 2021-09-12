@@ -65,8 +65,39 @@ let notesService = {
         }
     },  
 
-    //to create note object
     createNote(req, res) {
+        const newNote = new notesModel({
+            title: this.validateTitle(req.body.title),
+            description: req.body.description,
+        })
+
+        if(req.body.isPinned != null){
+            newNote.isPinned = req.body.isPinned
+        }
+        if(req.body.isArchived != null){
+            newNote.isArchived = req.body.isArchived
+        }
+        if(req.body.color != null){
+            newNote.color = req.body.color
+        }
+
+        if(res.notes.length != 0) {
+            logger.log('error', `Status: 422: Note with same title already exists`)
+        }
+        return newNote
+    },
+
+    validateTitle(title){
+        check("title")
+        .not().isEmpty()
+        .withMessage("Title is required")
+        .isLength({min:3})
+        .withMessage("Title should have atleast 3 characters")
+        return title
+    },
+
+    //to create note object
+    createNoteObject(req, res) {
         const newNote = new notesModel({
             title: req.body.title,
             description: req.body.description,

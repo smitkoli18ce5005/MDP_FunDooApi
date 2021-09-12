@@ -11,3 +11,4 @@
 * Added service for user api
 * Added service for notes api
 * Made changes to end points for user and notes api routes
+* Added Authentication token for user api using jsonwebtoken
