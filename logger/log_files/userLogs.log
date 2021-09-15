@@ -628,3 +628,21 @@
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T14:21:52.101Z"}
 {"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T14:21:52.745Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T14:21:52.799Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T14:27:55.368Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T14:27:59.757Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T14:28:15.899Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T17:24:45.058Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T17:24:45.657Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T17:24:49.889Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T17:24:50.472Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T17:24:56.439Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:02:28.029Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:02:28.030Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:04:02.245Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:04:02.246Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:07:31.341Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:07:31.342Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T18:27:37.676Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T18:27:44.508Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T18:28:34.749Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T18:28:40.997Z"}

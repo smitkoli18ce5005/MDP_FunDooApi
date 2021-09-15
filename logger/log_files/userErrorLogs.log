@@ -233,3 +233,12 @@
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T14:21:50.858Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T14:21:52.101Z"}
 {"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T14:21:52.799Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T14:27:55.368Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:02:28.029Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:02:28.030Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:04:02.245Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:04:02.246Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:07:31.341Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T18:07:31.342Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T18:27:37.676Z"}
+{"level":"error","message":"Status: 401: Invalid Credentials","timestamp":"2021-09-15T18:28:34.749Z"}

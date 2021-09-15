@@ -3,6 +3,8 @@ const userModel = require('../models/userModel')
 const logger = require('../logger/userLogger')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const nodemailer = require('nodemailer')
+const { json } = require('express')
 
 let userService = {
 
@@ -150,8 +152,47 @@ let userService = {
             logger.log('error', `Status: 500: ${error.message}`)
             res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
-        
-        
+    },
+
+    //to send reset password mail
+    sendResetMail(req, res){
+        try{
+            const token = jwt.sign({email: res.user[0].email, id: res.user[0]._id}, process.env.TOKEN_KEY)
+            const transporter = nodemailer.createTransport({
+                service: "hotmail",
+                auth: {
+                    user: process.env.SENDER_MAIL,
+                    pass: process.env.SENDER_PASSWORD
+                }
+            })
+            const options = {
+                from: process.env.SENDER_MAIL,
+                to: process.env.RECEIVER_MAIL,
+                subject: process.env.MAIL_SUBJECT,
+                html: '<p>Click <a href="' + process.env.RESET_LINK + token + '">here</a> to reset your password</p>'
+            }
+            transporter.sendMail(options, (error, info) => {
+                if(error) {
+                    res.status(502).json(this.createResponseObject(502, false, "Failed to sent mail"))
+                } else {
+                    res.status(200).json(this.createResponseObject(200, true, "Successfully sent mail"))
+                } 
+            })
+        } catch(error) {
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }  
+    },
+
+    //to update password
+    async updatePassword(req, res){
+        try{
+            let user = await userModel.findById(res.userID.id)
+            user.password =  await bcrypt.hash(req.body.password, 10)
+            const updatetUser = await user.save()
+            res.status(200).json(this.createResponseObject(200, true, "Successfully updated password", updatetUser))
+        } catch(error){
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }  
     }
 }
 

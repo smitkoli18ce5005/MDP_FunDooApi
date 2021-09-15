@@ -14,3 +14,4 @@
 * Added Authentication token for user api using jsonwebtoken
 * Added password encryption using BCrypt for user api
 * Code cleanup for user api
+* Added route in user api for forget and reset password

@@ -11,7 +11,11 @@ userRouter.delete('/deleteUser/:id', auth.verifyToken, userController.getUserByI
 
 userRouter.post('/login', userController.loginUser)
 
-userRouter.post('/userSignUp', userController.validationRules(), userController.validateUser, userController.getUserByEmail, userController.addNewUser)
+userRouter.post('/userSignUp', userController.validationRules(), userController.returnValidationErrors, userController.getUserByEmail, userController.addNewUser)
+
+userRouter.post('/forgetPassword', userController.getUserByEmail, userController.forgetPassword)
+
+userRouter.get('/resetPassword/:token', userController.validatePassword, userController.verifyToken, userController.resetPassword)
 
 
 module.exports = userRouter
