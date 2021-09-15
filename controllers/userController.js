@@ -7,11 +7,19 @@ let userController = {
     //to return all users
     async getAllUsers(req, res) {
         try {
-            const allUsers = await userService.returnAllUsers()
-            res.status(200).json(allUsers)
+            await userService.getAllUsersService(req, res)
           } catch (error) {   
             res.status(500).json({ message: error.messages })
           }
+    },
+
+    //for login
+    async loginUser(req, res){
+        try{
+            await userService.loginService(req, res)
+        } catch (error) {
+            res.status(500).json({ message: error.messages });
+        }
     },
 
     //to return user by credentials (email and password)
@@ -30,7 +38,31 @@ let userController = {
 
     //Validation rules
     validationRules(){
-        return userService.returnValidationRules()
+        return [
+            check("firstName")
+            .not().isEmpty()
+            .withMessage("First Name is required")
+            .isAlpha()
+            .withMessage("First Name should only contain alphabetical characters")
+            .isLength({min:3})
+            .withMessage("First Name should atleast have 3 characters"),
+    
+            check("lastName")
+            .not().isEmpty()
+            .withMessage("Last Name is required")
+            .isAlpha()
+            .withMessage("Last Name should only contain alphabetical characters")
+            .isLength({min:3})
+            .withMessage("Last Name should atleast have 3 characters"),
+    
+            check("email")
+            .isEmail()
+            .withMessage("Please enter a valid Email-ID"),
+    
+            check("password")
+            .isLength({min:3})
+            .withMessage("Password must have atleast 3 characters")
+        ]
     },
 
     //to validate user
@@ -62,7 +94,7 @@ let userController = {
 
     //to add new user
     async addNewUser(req, res) {
-        const newUser = userService.createUser(req, res)
+        const newUser = await userService.createUser(req, res)
 
         if(res.user.length != 0) {     
             res.status(422).json({message: "User already exists"})
@@ -92,18 +124,30 @@ let userController = {
         try {
           user = await userService.returnUserByID(req, res)
           if (user == null) {
-            return res.status(404).json({ message: "User not found" });
+            logger.log('error', `Status: 404: User not found`)
+            let responseObject = userService.createResponseObject()
+            responseObject.status = 404
+            responseObject.success = false
+            responseObject.message = "User not found"
+            res.status(404).json(responseObject)
+          } else {
+            res.user = user;
+            next();
           }
         } catch (error) {
-          return res.status(500).json({ message: error.message });
+          res.status(500).json({ message: error.message });
         }
-        res.user = user;
-        next();
     },
 
     displayUser(req, res) {
         if(res.user.length != 0){
-            res.status(200).json(res.user)
+            logger.log('info', `Status: 200: Successfully returned user`)
+            let responseObject = userService.createResponseObject()
+            responseObject.status = 200
+            responseObject.success = true
+            responseObject.message = "Successfully returned user"
+            responseObject.data = res.user
+            res.status(200).json(responseObject)
         }
     }
 }
