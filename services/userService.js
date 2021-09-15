@@ -12,72 +12,64 @@ let userService = {
             const allUsers = await userModel.find();
             if(allUsers.length > 0) {
                 logger.log('info', `Status: 200: Successfully returned all users`)
-                let responseObject = this.createResponseObject()
-                responseObject.status = 200
-                responseObject.success = true
-                responseObject.message = "Successfully returned all users"
-                responseObject.data = allUsers
-                res.status(200).json(responseObject)
+                res.status(200).json(this.createResponseObject(200, true, "Successfully returned all users", allUsers))
             } else {
                 logger.log('error', `Status: 404: No users found`)
-                let responseObject = this.createResponseObject()
-                responseObject.status = 404
-                responseObject.success = false
-                responseObject.message = "No users found"
-                responseObject.data = allUsers
-                res.status(200).json(responseObject)
+                res.status(200).json(this.createResponseObject(404, false, "No users found"))
             }
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
     //service for login
     async loginService(req, res){
-        const user = await userModel.find({email: req.body.email})
-       
-        if(user.length > 0){
-            bcrypt.compare(req.body.password, user[0].password, (error, result) => {
-                if(error){
-                    logger.log('error', `Status: 500: ${error.message}`)
-                    throw error
-                }
-                if(result){
-                    logger.log('info', `Status: 200: Successfully logged in`)
-                    const token = jwt.sign({email: user[0].email, id: user[0]._id}, process.env.TOKEN_KEY)
-                    let responseObject = this.createResponseObject(user[0], token)
-                    responseObject.status = 200
-                    responseObject.success = true
-                    responseObject.message = "Successfully logged in"
-                    res.status(200).json(responseObject)
-                } else {
-                    logger.log('error', `Status: 401: Invalid Credentials`)
-                    let responseObject = this.createResponseObject()
-                    responseObject.status = 401
-                    responseObject.success = false
-                    responseObject.message = "Invalid Credentials"
-                    res.status(401).json(responseObject)
-                }
-            })
-        } else {
-            logger.log('error', `Status: 404: User not found`)
-            let responseObject = this.createResponseObject()
-            responseObject.status = 404
-            responseObject.success = false
-            responseObject.message = "User not found"
-            res.status(401).json(responseObject)
+        try{
+            const user = await userModel.find({email: req.body.email})
+            if(user.length > 0){
+                bcrypt.compare(req.body.password, user[0].password, (error, result) => {
+                    if(error){
+                        logger.log('error', `Status: 500: ${error.message}`)
+                        throw error
+                    }
+                    if(result){
+                        logger.log('info', `Status: 200: Successfully logged in`)
+                        const token = jwt.sign({email: user[0].email, id: user[0]._id}, process.env.TOKEN_KEY)
+                        res.status(200).json(this.createResponseObject(200, true, "Successfully logged in", user[0], token))
+                    } else {
+                        logger.log('error', `Status: 401: Invalid Credentials`)
+                        res.status(401).json(this.createResponseObject(401, false, "Invalid Credentials"))
+                    }
+                })
+            } else {
+                logger.log('error', `Status: 404: User not found`)
+                res.status(401).json(this.createResponseObject(404, false, "User not found"))
+            }
+        } catch(error) {
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
-    //to create response object
-    createResponseObject(data, token){
+    //to create response object for data
+    createResponseObject(status, success, message, data, token){
         let responseObject = {
-            status: null,
-            success: null,
-            message: "",
+            status,
+            success,
+            message,
             data: null
         }
         if(data != null){
+            responseObject.data = data
+        }else{
+            responseObject = {
+                status,
+                success,
+                message
+            }
+        }
+        if(data != null && token != null){
             responseObject.data = {
                 firstName: data.firstName,
                 lastName: data.lastName,
@@ -95,22 +87,24 @@ let userService = {
             return user
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
     //to return user by id
     async returnUserByID(req, res) {
-        try {
+        try { 
             const user = await userModel.findById(req.params.id)
-            if (user == null) {
+            if (user == null) {   
                 logger.log('error', `Status: 404: User not found`)
-            }else{
+                res.status(404).json(this.createResponseObject(404, false, "User not found"))
+            } else {
                 logger.log('info', `Status: 200: User found`)
                 return user
             }
-            
         } catch (error) {
-            logger.log('error', `Status: 500: ${error.message}`)
+            logger.log('error', `Status: 404: User not found`)
+                res.status(404).json(this.createResponseObject(404, false, "User not found"))
         }
     },
 
@@ -122,32 +116,42 @@ let userService = {
             return savedUser
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
     //to delete user
-    async removeUser (user) {
+    async removeUser (req, res) {
         try{
-            await user.remove()
+            const deletedUser = await res.user.remove()
             logger.log('info', `Status: 200: Successfully deleted user`)
+            res.status(200).json(this.createResponseObject(200, true, "Successfully deleted user", deletedUser))
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },  
 
     //to create user object
     async createUser(req, res) {
-        const encodedPassword = await bcrypt.hash(req.body.password, 10)
-        const userObject = new userModel({
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            email: req.body.email,
-            password: encodedPassword
-        })
-        if(res.user.length != 0) {
-            logger.log('error', `Status: 422: User already exists`)
+        try{
+            const encodedPassword = await bcrypt.hash(req.body.password, 10)
+            const userObject = new userModel({
+                firstName: req.body.firstName,
+                lastName: req.body.lastName,
+                email: req.body.email,
+                password: encodedPassword
+            })
+            if(res.user.length != 0) {
+                logger.log('error', `Status: 422: User already exists`)
+            }
+            return userObject
+        }catch (error) {
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
-        return userObject
+        
+        
     }
 }
 

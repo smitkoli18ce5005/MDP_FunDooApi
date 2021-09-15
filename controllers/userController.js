@@ -8,31 +8,18 @@ let userController = {
     async getAllUsers(req, res) {
         try {
             await userService.getAllUsersService(req, res)
-          } catch (error) {   
-            res.status(500).json({ message: error.messages })
+          } catch (error) {  
+            // 503 - Service Unavailable.
+            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
           }
     },
 
-    //for login
+    //for user login
     async loginUser(req, res){
         try{
             await userService.loginService(req, res)
         } catch (error) {
-            res.status(500).json({ message: error.messages });
-        }
-    },
-
-    //to return user by credentials (email and password)
-    async getUserByCredentials(req, res) {
-        try {
-            const user = await userService.returnUserByCredentials(req, res)
-            if(user.length != 0) {
-                res.status(200).json(user)
-            } else {
-                res.status(404).json({message: "User not found"})
-            }
-        } catch (error) {
-            res.status(500).json({ message: error.messages });
+            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
         }
     },
 
@@ -86,7 +73,7 @@ let userController = {
         try{
             user = await userService.returnUserByEmail(req, res)
         } catch (error) {
-            return res.status(500).json({ message:error.message })
+            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
         }
         res.user = user
         next()
@@ -97,13 +84,13 @@ let userController = {
         const newUser = await userService.createUser(req, res)
 
         if(res.user.length != 0) {     
-            res.status(422).json({message: "User already exists"})
+            res.status(422).json(userService.createResponseObject(422, false, "User already exists"))
         } else {
             try {
-                const addedNewUser = await userService.saveUser(newUser)
-                res.status(200).json({message: "User successfully registered"})
+                await userService.saveUser(newUser)
+                res.status(200).json(userService.createResponseObject(200, true, "User successfully registered"))
             } catch (error) {
-                res.status(500).json({ message: error.message })
+                res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
             }
         }
     },
@@ -111,10 +98,9 @@ let userController = {
     //to delete user
     async deleteUser(req, res) {
         try {
-            await userService.removeUser(res.user)
-            res.json({ message: "Deleted user" });
+            await userService.removeUser(req, res)
         } catch (error) {
-            res.status(500).json({ message: error.message });
+            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable", error.message))
         }
     },
 
@@ -122,31 +108,20 @@ let userController = {
     async getUserByID(req, res, next) {
         let user;
         try {
-          user = await userService.returnUserByID(req, res)
-          if (user == null) {
-            logger.log('error', `Status: 404: User not found`)
-            let responseObject = userService.createResponseObject()
-            responseObject.status = 404
-            responseObject.success = false
-            responseObject.message = "User not found"
-            res.status(404).json(responseObject)
-          } else {
-            res.user = user;
-            next();
-          }
+            user = await userService.returnUserByID(req, res)
+            if(user != null){
+                res.user = user;
+                next();
+            }
         } catch (error) {
-          res.status(500).json({ message: error.message });
+            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
         }
     },
 
     displayUser(req, res) {
         if(res.user.length != 0){
             logger.log('info', `Status: 200: Successfully returned user`)
-            let responseObject = userService.createResponseObject()
-            responseObject.status = 200
-            responseObject.success = true
-            responseObject.message = "Successfully returned user"
-            responseObject.data = res.user
+            let responseObject = userService.createResponseObject(200, true, "Successfully returned user", res.user)
             res.status(200).json(responseObject)
         }
     }
