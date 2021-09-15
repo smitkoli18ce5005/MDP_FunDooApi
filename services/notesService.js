@@ -1,3 +1,4 @@
+const notesController = require('../controllers/notesController')
 const notesModel = require('../models/notesModel')
 const {check, validationResult} = require('express-validator')
 const logger = require('../logger/notesLogger')
@@ -67,47 +68,23 @@ let notesService = {
 
     createNote(req, res) {
         const newNote = new notesModel({
-            title: this.validateTitle(req.body.title),
+            title: req.body.title,
             description: req.body.description,
         })
-
+        this.validateTitleDescription()
         if(req.body.isPinned != null){
             newNote.isPinned = req.body.isPinned
+            this.validateIsPinned()
         }
         if(req.body.isArchived != null){
             newNote.isArchived = req.body.isArchived
+            this.validateIsArchived()
         }
         if(req.body.color != null){
             newNote.color = req.body.color
+            this.validateColor()
         }
-
-        if(res.notes.length != 0) {
-            logger.log('error', `Status: 422: Note with same title already exists`)
-        }
-        return newNote
-    },
-
-    validateTitle(title){
-        check("title")
-        .not().isEmpty()
-        .withMessage("Title is required")
-        .isLength({min:3})
-        .withMessage("Title should have atleast 3 characters")
-        return title
-    },
-
-    //to create note object
-    createNoteObject(req, res) {
-        const newNote = new notesModel({
-            title: req.body.title,
-            description: req.body.description,
-            isPinned: req.body.isPinned,
-            isArchived: req.body.isArchived,
-            color: req.body.color
-        })
-        if(res.notes.length != 0) {
-            logger.log('error', `Status: 422: Note with same title already exists`)
-        }
+           // logger.log('error', `Status: 422: Note with same title already exists`)
         return newNote
     },
 
@@ -127,8 +104,29 @@ let notesService = {
         
     },
 
+    //isArchived validation function
+    validateIsArchived(){
+        return check("isArchived")
+        .isBoolean()
+        .withMessage("isArchived must be boolean")
+    },
+
+    //isPinned validation function
+    validateIsPinned(){
+        return check("isPinned")
+        .isBoolean()
+        .withMessage("isPinned must be boolean")
+    },
+
+    //color validation function
+    validateColor(){
+        return check("color")
+        .isHexColor()
+        .withMessage("color should be in hex")
+    },
+
     //Validation rules
-    returnValidationRules() {
+    validateTitleDescription() {
         return [
             check("title")
             .not().isEmpty()
@@ -140,25 +138,7 @@ let notesService = {
             .not().isEmpty()
             .withMessage("Description is required")
             .isLength({min:3})
-            .withMessage("Description should have atleast 3 characters"),
-
-            check("isPinned")
-            .not().isEmpty()
-            .withMessage("isPinned is required")
-            .isBoolean()
-            .withMessage("isPinned must be boolean"),
-
-            check("isArchived")
-            .not().isEmpty()
-            .withMessage("isArchived is required")
-            .isBoolean()
-            .withMessage("isArchived must be boolean"),
-
-            check("color")
-            .not().isEmpty()
-            .withMessage("color is required")
-            .isHexColor()
-            .withMessage("color should be in hex")
+            .withMessage("Description should have atleast 3 characters")
         ]
     }
 }

@@ -127,3 +127,31 @@
 {"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-09T06:12:28.847Z"}
 {"level":"error","message":"Status: 422: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2021-09-09T06:12:55.629Z"}
 {"level":"error","message":"Status: 422: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2021-09-09T07:13:25.344Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T04:08:02.495Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-13T04:08:02.518Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T04:08:42.043Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-13T04:08:42.049Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T04:08:59.041Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"jhshdh\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T04:08:59.045Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-13T04:09:12.661Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-13T04:22:29.570Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T04:22:45.761Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T04:23:13.379Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"jhshdh\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T04:23:13.397Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T05:27:15.727Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T05:27:52.481Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"jhshdh\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T05:27:52.500Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:25:07.717Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"jhshdh\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:25:07.732Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:30:48.202Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"jhshdh\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:30:48.214Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:31:38.731Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-13T06:31:38.739Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:52:29.153Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:52:29.161Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:53:23.026Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:53:23.034Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:53:36.169Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:53:36.178Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:57:32.844Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:57:32.851Z"}

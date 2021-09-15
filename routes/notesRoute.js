@@ -6,10 +6,10 @@ notesRouter.get('/getAllNotes', notesController.getAllnotes)
 
 notesRouter.get('/getNotes/:id', notesController.getNotesByID, notesController.displayNote)
 
-notesRouter.post('/addNotes', notesController.validationRules(), notesController.validateNotes, notesController.getNotesByTitle, notesController.addNewNote)
+notesRouter.post('/addNotes', notesController.createNoteObject, notesController.validateNotes, notesController.getNotesByTitle, notesController.addNewNote)
 
 notesRouter.delete('/deleteNote/:id', notesController.getNotesByID, notesController.deleteNote)
 
-notesRouter.patch('/updateNote/:id', notesController.validationRules(), notesController.validateNotes, notesController.getNotesByID, notesController.getNotesByTitle, notesController.updateNote)
+notesRouter.patch('/updateNote/:id', notesController.createNoteObject, notesController.validateNotes, notesController.getNotesByID, notesController.getNotesByTitle, notesController.updateNote)
 
 module.exports = notesRouter

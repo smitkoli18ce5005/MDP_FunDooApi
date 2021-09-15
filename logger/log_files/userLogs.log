@@ -235,3 +235,152 @@
 {"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-12T11:44:09.424Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-12T11:44:53.080Z"}
 {"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-12T11:45:06.479Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T13:38:48.414Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-13T13:38:48.436Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-13T13:39:06.173Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-13T13:39:11.993Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-13T13:39:33.802Z"}
+{"level":"error","message":"Status: 500: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\" for model \"userModel\"","timestamp":"2021-09-13T13:42:07.263Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:06:09.922Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:06:58.749Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:09:59.217Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:11:40.138Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:13:34.760Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:14:24.321Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:14:52.673Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:15:07.764Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:15:49.531Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-13T14:26:56.473Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-13T14:27:55.869Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:27:55.869Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-13T14:28:36.871Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-13T14:28:58.457Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:28:58.457Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-13T14:29:54.114Z"}
+{"level":"error","message":"Status: 500: data and hash arguments required","timestamp":"2021-09-13T14:29:54.115Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-13T14:34:18.192Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-13T14:34:41.827Z"}
+{"level":"error","message":"Status: 500: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\" for model \"userModel\"","timestamp":"2021-09-13T14:35:26.460Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T08:55:01.995Z"}
+{"level":"error","message":"Status: 500: Cannot read property '0' of undefined","timestamp":"2021-09-15T08:55:25.792Z"}
+{"level":"error","message":"Status: 500: Cannot read property '0' of undefined","timestamp":"2021-09-15T08:55:28.526Z"}
+{"level":"error","message":"Status: 500: Cannot read property '0' of undefined","timestamp":"2021-09-15T08:56:00.067Z"}
+{"level":"error","message":"Status: 500: Cannot read property '0' of undefined","timestamp":"2021-09-15T08:56:02.432Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T08:56:15.265Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T08:56:37.324Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T08:56:51.225Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T08:58:47.799Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T09:02:59.135Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:03:17.606Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:05:36.040Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:05:40.386Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T09:05:45.832Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:14:07.683Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:14:41.939Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:14:54.245Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:14:56.691Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:14:59.229Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:15:02.814Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:16:03.102Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:19:24.234Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T09:42:56.108Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:02:05.330Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T10:04:23.446Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T10:04:35.366Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T10:04:44.689Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:04:57.184Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T10:05:16.029Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-15T10:05:16.032Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:05:29.479Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:06:12.923Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T10:06:12.929Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:06:40.493Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:06:40.498Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T10:07:55.253Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:08:18.577Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:10:59.354Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:10:59.356Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:02.101Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:02.103Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:03.594Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:03.596Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:04.054Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:04.057Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:04.459Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:04.461Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:46.447Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:46.464Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:47.227Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:47.230Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:47.824Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:47.827Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:48.364Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:48.367Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:11:48.775Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:11:48.777Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:12:28.799Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:12:28.802Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:12:29.328Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:12:29.330Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:12:31.652Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:12:31.655Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:12:32.185Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:12:32.187Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:12:37.241Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:12:37.243Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:13:00.793Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:15:07.397Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:15:07.415Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-15T10:15:13.478Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:15:19.527Z"}
+{"level":"error","message":"Status: 500: userModel validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\"","timestamp":"2021-09-15T10:15:19.530Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:15:56.180Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T10:15:56.185Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:18:32.757Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:18:57.189Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T10:18:57.273Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:19:04.069Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-09-15T10:19:04.149Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-15T10:19:05.395Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-09-15T10:19:05.466Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T10:19:15.048Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T10:25:50.957Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:02:55.424Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:03:06.741Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:03:48.719Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T11:09:40.334Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-15T11:14:00.342Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:14:22.127Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:16:37.101Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:16:40.305Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T11:16:55.319Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:17:03.708Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T11:17:14.656Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-15T11:17:14.662Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:17:26.210Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T11:17:37.504Z"}
+{"level":"info","message":"Status: 200: Successfully deleted user","timestamp":"2021-09-15T11:17:37.506Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:17:52.948Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:18:47.509Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:26:41.765Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:32:47.901Z"}
+{"level":"error","message":"Status: 500: res is not defined","timestamp":"2021-09-15T11:32:47.901Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:33:02.968Z"}
+{"level":"error","message":"Status: 500: res is not defined","timestamp":"2021-09-15T11:33:02.969Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:33:53.763Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T11:38:16.568Z"}
+{"level":"info","message":"Status: 200: Successfully returned user","timestamp":"2021-09-15T11:38:16.568Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73sd4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:39:04.808Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73sd4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:40:45.237Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:40:45.237Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73sd4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:41:20.645Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:41:20.645Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73sd4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:42:32.309Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:42:32.309Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73sd4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:49:35.392Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:49:35.392Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6141c898c73d4e3a22b6a38\" (type string) at path \"_id\" for model \"userModel\"","timestamp":"2021-09-15T11:49:44.028Z"}
+{"level":"error","message":"Status: 404: User not found","timestamp":"2021-09-15T11:49:44.028Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-15T11:49:46.884Z"}
+{"level":"info","message":"Status: 200: Successfully returned user","timestamp":"2021-09-15T11:49:46.884Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-15T11:50:33.091Z"}

@@ -12,10 +12,22 @@ let notesController = {
           }
     },
 
-    validationRules(){
-        return notesService.returnValidationRules()
+    async getNotesByTitle(req, res, next){
+        let notes
+        try{
+            notes = await notesService.returnNoteByTitle(req, res)
+        } catch (error) {
+            res.status(500).json({ message:error.message })
+        }
+        res.noteExists = notes
+        next()
     },
-
+    
+    createNoteObject(req, res, next){
+        res.note = notesService.createNote(req, res)
+        next()
+    },
+    
     validateNotes(req, res, next) {
         const errors = validationResult(req)
 
@@ -30,24 +42,12 @@ let notesController = {
         }
     },
 
-    async getNotesByTitle(req, res, next){
-        let notes
-        try{
-            notes = await notesService.returnNoteByTitle(req, res)
-        } catch (error) {
-            res.status(500).json({ message:error.message })
-        }
-        res.notes = notes
-        next()
-    },
-    
     async addNewNote(req, res) {
-        const newNote = notesService.createNote(req, res)
-        if(res.notes.length != 0) {
+        if(res.noteExists.length != 0) {
             res.status(422).json({message: "Note with same title already exists"})
         } else {
             try {
-                const addedNewNote = await notesService.saveNote(newNote, false)
+                const addedNewNote = await notesService.saveNote(res.note, false)
                 res.status(200).json(addedNewNote)
             } catch (error) {
                 res.status(400).json({ message: error.message })
