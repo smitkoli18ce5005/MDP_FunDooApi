@@ -3502,3 +3502,20 @@
 {"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:42:09.298Z"}
 {"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:42:09.317Z"}
 {"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:42:18.907Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:45:30.663Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:45:30.679Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:45:34.409Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:45:34.425Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:47:18.014Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:47:18.031Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:47:19.447Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:47:19.464Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:48:05.381Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:48:05.398Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:48:06.758Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:48:06.774Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:48:56.562Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:48:56.571Z"}
+{"level":"info","message":"Status: 200: Successfully returned all trashed notes","timestamp":"2021-09-16T17:49:06.847Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:49:12.789Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:49:18.971Z"}

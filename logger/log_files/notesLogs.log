@@ -510,3 +510,8 @@
 {"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:41:29.969Z"}
 {"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:41:57.104Z"}
 {"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:42:18.907Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:48:56.562Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:48:56.571Z"}
+{"level":"info","message":"Status: 200: Successfully returned all trashed notes","timestamp":"2021-09-16T17:49:06.847Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:49:12.789Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:49:18.971Z"}

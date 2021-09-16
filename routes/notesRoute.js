@@ -8,6 +8,8 @@ notesRouter.get('/getNote/:id', notesController.getNotesByID, notesController.di
 
 notesRouter.get('/getAllArchivedNotes', notesController.getAllArchived)
 
+notesRouter.get('/getAllTrashedNotes', notesController.getAllTrashedNotes)
+
 notesRouter.delete('/deleteNote/:id', notesController.getNotesByID, notesController.deleteNote)
 
 notesRouter.post('/addNotes', notesController.getNotesByTitle, notesController.addNewNote)
