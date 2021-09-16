@@ -155,3 +155,353 @@
 {"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:53:36.178Z"}
 {"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-13T06:57:32.844Z"}
 {"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:57:32.851Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T12:56:18.227Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T12:56:58.154Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:43:49.962Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T13:43:49.972Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:44:32.393Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:44:32.395Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:48:43.965Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:48:43.975Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:43.978Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:48:58.513Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:48:58.517Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:58.519Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:01.578Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:01.580Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:01.582Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:04.254Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:04.256Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:04.259Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:45.186Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:45.196Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:45.197Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:47.949Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:47.951Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:47.951Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:50:15.787Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:51:57.746Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:18.201Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:25.285Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:52.182Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:54:55.313Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:55:12.368Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:56:03.957Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T13:57:21.642Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:57:26.196Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:01:29.896Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:04:17.203Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:04:26.594Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:04:26.596Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:39.517Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:39.521Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:50.205Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:50.209Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:27.228Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:27.232Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cfs8d\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:35.166Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:35.167Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:06:41.951Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T14:06:41.956Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:43.670Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:43.671Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.144Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.145Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.715Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.716Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:28.712Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:28.716Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:54.707Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:54.712Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:39.985Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:39.989Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:59.957Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:59.961Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:11:18.452Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:11:18.455Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:29.110Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:29.114Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:45.849Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:45.853Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:49.336Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:49.340Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:22.877Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:13:22.880Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:46.123Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:48.993Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:09.466Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:11.304Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:22.972Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:14:22.973Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:15:59.607Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:00.987Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:01.639Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:07.577Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:24.472Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:26.584Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T14:16:36.264Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:16:47.323Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:16:56.871Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T14:16:56.875Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:17:01.571Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:28:32.080Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:15.392Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:15.401Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:35.324Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:35.327Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:36.119Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:36.121Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:36.672Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:36.674Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:37.281Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:37.284Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T14:30:12.520Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:34:09.382Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:11.852Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:11.852Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:11.863Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.015Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.015Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.018Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.645Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.645Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.648Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:15.535Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:15.536Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:15.538Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:34.701Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:34.702Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:34.713Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:36.800Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:36.800Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:36.803Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:52.430Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:52.431Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:52.442Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:31.917Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:31.917Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:31.928Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:44.797Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:44.798Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:44.810Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:55:23.471Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:55:23.483Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T15:10:09.076Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T15:10:38.169Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T15:10:38.174Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T15:10:55.145Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:22:35.381Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:24:39.567Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:25:37.109Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:25:37.130Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:29:29.544Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-16T15:30:23.480Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object],[object Object]","timestamp":"2021-09-16T15:30:40.685Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:30:55.779Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:31:03.779Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:31:08.679Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:31:20.140Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:31:20.151Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:52:38.301Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:52:44.465Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T15:52:44.473Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:02:00.546Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"uu\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:00.571Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:02:29.913Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:29.918Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:10.094Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:10.125Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:18.096Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:18.103Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:53.746Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:53.773Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:14.009Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:14.026Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:16.014Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:16.016Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:39.380Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:39.402Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:05:17.082Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:05:17.105Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:06:23.969Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:23.993Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:06:43.647Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:43.674Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:10:21.512Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:10:21.538Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:10:46.993Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:11:07.266Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:11:07.288Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:12:06.647Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:12:06.670Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:13:06.514Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:06.539Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:13:41.585Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:41.609Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:14:58.244Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:15:14.739Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:14.758Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:15:27.721Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:27.743Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:37.912Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:37.929Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:46.285Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:46.289Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:51.815Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:51.819Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:22:25.109Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:45.608Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:58.796Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:29.227Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:42.033Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:28:37.579Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:30:06.384Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:30:22.136Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:07.455Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:15.130Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:17.995Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:28.927Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.242Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.926Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:31.477Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:57.322Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:35:52.438Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:37:15.075Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:37:28.793Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:38:33.069Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T16:48:33.648Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:48:51.364Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"614361f19f2c94f8ee4a76b\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T16:48:56.247Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:48:59.551Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:49:11.175Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T16:49:11.178Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T16:49:13.326Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:49:50.825Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:52:05.124Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:52:11.394Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:52:28.690Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:53:36.504Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:05.843Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:05.844Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:13.716Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:13.716Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:17.581Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:17.581Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:20.095Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.095Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:20.686Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.686Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:21.473Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:21.473Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:25.552Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:25.552Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:46.292Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:46.304Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:49.869Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:49.873Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:58.017Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:58.020Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:08.656Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:56:08.660Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:25.303Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:32.429Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:56:32.433Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:34.333Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:59:16.250Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:59:16.265Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:01.994Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:02.012Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:35.553Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:35.571Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:44.851Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:44.872Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:48.224Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:48.240Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:04:37.846Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:04:37.865Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:13.156Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:16.695Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:16.711Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:20.876Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:20.884Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:27.972Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:30.228Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:30.237Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:45.788Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:45.806Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:46.759Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:46.765Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:49.273Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:49.282Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:51.689Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:51.695Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:53.674Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:53.680Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:03.710Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:03.717Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:11.082Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:11.089Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:25.121Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:25.128Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:49.178Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:49.184Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:09:58.898Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:09:58.918Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:03.986Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:03.992Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:09.500Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:09.508Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:14.099Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:14.106Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:54.230Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:54.252Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:59.989Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:11:00.000Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:11:08.596Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:11:08.603Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:11:22.834Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:49.499Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:49.509Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:50.330Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:50.333Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:52.826Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:52.829Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:56.573Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:56.577Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:00.322Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:00.326Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:08.679Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:08.692Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:20.060Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:20.065Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:06.187Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:13.736Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:14.363Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:14.914Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:17.540Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:14:17.553Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:14:34.339Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:02.540Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:15.103Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:15:15.117Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:15:18.604Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:36.936Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:39.090Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:39.731Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:16:38.650Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:16:56.216Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:17:54.174Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:16.001Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:38.370Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:52.533Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:19:17.225Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:18.997Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:25.044Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:38.570Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:55.105Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:55.772Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:57.746Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:23:05.580Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:23:05.590Z"}

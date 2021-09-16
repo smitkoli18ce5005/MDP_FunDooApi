@@ -15,7 +15,7 @@ userRouter.post('/userSignUp', userController.validationRules(), userController.
 
 userRouter.post('/forgetPassword', userController.getUserByEmail, userController.forgetPassword)
 
-userRouter.get('/resetPassword/:token', userController.validatePassword, userController.verifyToken, userController.resetPassword)
+userRouter.patch('/resetPassword/:token', userController.validatePassword, userController.verifyToken, userController.resetPassword)
 
 
 module.exports = userRouter

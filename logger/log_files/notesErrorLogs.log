@@ -48,3 +48,128 @@
 {"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:53:23.034Z"}
 {"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:53:36.178Z"}
 {"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"ssdsd\" (type string) at path \"isPinned\"","timestamp":"2021-09-13T06:57:32.851Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:43.978Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:58.519Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:01.582Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:04.259Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:45.197Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:47.951Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:54:55.313Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:55:12.368Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T13:57:21.642Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:04:26.594Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:04:26.596Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:39.517Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:39.521Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:50.205Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:50.209Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:27.228Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:27.232Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cfs8d\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:35.166Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:35.167Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:43.670Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:43.671Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.144Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.145Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.715Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.716Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:28.712Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:28.716Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:54.707Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:54.712Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:39.985Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:39.989Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:59.957Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:59.961Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:11:18.452Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:11:18.455Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:29.110Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:29.114Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:45.849Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:45.853Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:49.336Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:49.340Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:22.877Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:13:22.880Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:46.123Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:48.993Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:09.466Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:11.304Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:22.972Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:14:22.973Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:15:59.607Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:00.987Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:01.639Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:07.577Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:24.472Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:26.584Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:17:01.571Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:11.863Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.018Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.648Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:15.538Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:34.713Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:36.803Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:52.442Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:31.928Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:44.810Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:55:23.483Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:29:29.544Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-16T15:30:23.480Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object],[object Object]","timestamp":"2021-09-16T15:30:40.685Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:30:55.779Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:31:03.779Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T15:52:44.473Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"uu\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:00.571Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:29.918Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:10.125Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:18.103Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:53.773Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:14.026Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:16.016Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:39.402Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:05:17.105Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:23.993Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:43.674Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:10:21.538Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:10:46.993Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:11:07.288Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:12:06.670Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:06.539Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:41.609Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:14.758Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:27.743Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:37.929Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:46.289Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:51.819Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:22:25.109Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:45.608Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:58.796Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:29.227Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:42.033Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:28:37.579Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:30:06.384Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:30:22.136Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:07.455Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:15.130Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:17.995Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:28.927Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.242Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.926Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:31.477Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:57.322Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:35:52.438Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:37:15.075Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"614361f19f2c94f8ee4a76b\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T16:48:56.247Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T16:49:13.326Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:49:50.825Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:52:05.124Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:05.844Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:13.716Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:17.581Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.095Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.686Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:21.473Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:25.552Z"}

@@ -5,10 +5,9 @@ const logger = require('../logger/notesLogger')
 let notesController = {
     async getAllnotes(req, res) {
         try {
-            const allUsers = await notesService.returnAllNotes()
-            res.status(200).json(allUsers);
+            await notesService.returnAllNotes(req, res)
           } catch (error) {
-            res.status(500).json({ message: error.messages });
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
           }
     },
 
@@ -17,62 +16,47 @@ let notesController = {
         try{
             notes = await notesService.returnNoteByTitle(req, res)
         } catch (error) {
-            res.status(500).json({ message:error.message })
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }
         res.noteExists = notes
         next()
     },
-    
-    createNoteObject(req, res, next){
-        res.note = notesService.createNote(req, res)
-        next()
-    },
-    
-    validateNotes(req, res, next) {
-        const errors = validationResult(req)
-
-        if(errors.isEmpty()){
-            logger.log('info', `Status: ${res.statusCode}: Entered data is valid`)
-            next()
-        } else {
-            const extractedErrors = []
-            errors.array().map(err => extractedErrors.push({ [err.param]: err.msg }))
-            logger.log('error', `Status: 422: ${extractedErrors}`)
-            res.status(422).json({message: extractedErrors})
-        }
-    },
 
     async addNewNote(req, res) {
+        notesService.createNote(req, res)
         if(res.noteExists.length != 0) {
-            res.status(422).json({message: "Note with same title already exists"})
+            res.status(422).json(notesService.createResponseObject(422, false, "Note with same title already exists"))
         } else {
             try {
                 const addedNewNote = await notesService.saveNote(res.note, false)
-                res.status(200).json(addedNewNote)
+                res.status(200).json(notesService.createResponseObject(200, true, "Note successfully added", addedNewNote))
             } catch (error) {
-                res.status(400).json({ message: error.message })
+                res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
             }
         }
     },
 
     async deleteNote(req, res) {
         try {
-            await notesService.removeNote(res.note)
-            res.json({ message: "Deleted note" });
+            if(res.note != null){
+                await notesService.removeNote(res.note)
+                res.status(200).json(notesService.createResponseObject(200, true, "Deleted note", res.note))
+            }
         } catch (error) {
-            res.status(500).json({ message: error.message });
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
     async updateNote(req, res) {
-        if(notesService.sameTitleExists(req, res)){
-            res.status(422).json({message: "Note with same title already exists"})
+        if(res.noteExists.length != 0) {
+            res.status(422).json(notesService.createResponseObject(422, false, "Note with same title already exists"))
         } else {
             try {
+                notesService.createUpdatedNote(req, res)
                 const updatedNote = await notesService.saveNote(res.note, true)
-                res.status(200).json(updatedNote)
+                res.status(200).json(notesService.createResponseObject(200, true, "Note successfully updated", updatedNote))
             } catch (error) {
-                res.status(400).json({ message: error.message })
+                res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
             }
         }
     },
@@ -80,20 +64,16 @@ let notesController = {
     async getNotesByID(req, res, next) {
         let note;
         try {
-          note = await notesService.returnNoteByID(req, res)
-          if (note == null) {
-            return res.status(404).json({ message: "Note not found" });
-          }
+          res.note = await notesService.returnNoteByID(req, res)
         } catch (error) {
-          return res.status(500).json({ message: error.message });
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }
-        res.note = note;
         next();
     },
 
     displayNote(req, res) {
-        if(res.note.length != 0){
-            res.status(200).json(res.note)
+        if(res.note != null){
+            res.status(200).json(notesService.createResponseObject(200, true, "Successfully returned note", res.note))
         }
     }
 }

@@ -10,20 +10,16 @@ const notesSchema = new mongoose.Schema({
         required: true
     },
     "isPinned": {
-        type: Boolean,
-        default: false
+        type: Boolean
     },
     "isArchived": {
-        type: Boolean,
-        default: false
+        type: Boolean
     },
     "isDeleted": {
-        type: Boolean,
-        default: false
+        type: Boolean
     },
     "color": {
-        type: String,
-        default: "#FFFFFF"
+        type: String
     }
 })
 

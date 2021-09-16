@@ -2587,3 +2587,887 @@
 {"level":"info","message":"Connected to database","timestamp":"2021-09-15T18:34:24.910Z"}
 {"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-15T18:34:26.389Z"}
 {"level":"info","message":"Connected to database","timestamp":"2021-09-15T18:34:26.417Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T04:46:18.471Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T04:46:18.490Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-16T04:46:48.689Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T12:56:07.725Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T12:56:07.750Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T12:56:18.227Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T12:56:58.154Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:43:49.962Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T13:43:49.972Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:44:32.393Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:44:32.395Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:44:52.595Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:44:52.627Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:44:54.324Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:44:54.354Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:48:42.023Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:48:42.056Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:48:43.530Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:48:43.556Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:48:43.965Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:48:43.975Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:43.978Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:48:58.513Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:48:58.517Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:48:58.519Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:01.578Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:01.580Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:01.582Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:04.254Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:04.256Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:04.259Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:49:42.882Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:49:42.907Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:49:44.863Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:49:44.890Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:45.186Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:45.196Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:45.197Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T13:49:47.949Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:49:47.951Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T13:49:47.951Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:50:00.249Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:50:00.278Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:50:01.812Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:50:01.841Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:50:15.787Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:51:55.711Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:51:55.743Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:51:57.261Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:51:57.290Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:51:57.746Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:52:17.769Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:52:17.796Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:18.201Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:25.285Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:52:50.212Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:52:50.247Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:52:51.833Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:52:51.860Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T13:52:52.182Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:13.579Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:13.614Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:15.125Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:15.151Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:34.914Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:34.953Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:36.435Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:36.468Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:53.780Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:53.815Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:54:55.255Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:54:55.280Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:54:55.313Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:12.011Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:12.040Z"}
+{"level":"error","message":"Status: 500: notessModel is not defined","timestamp":"2021-09-16T13:55:12.368Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:13.893Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:13.919Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:22.408Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:22.436Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:24.078Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:24.102Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:44.457Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:44.494Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:55:46.102Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:55:46.133Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:56:03.957Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:57:19.609Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:57:21.061Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:57:21.086Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T13:57:21.642Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T13:57:26.196Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:58:17.524Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:58:17.552Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T13:58:18.849Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T13:58:18.886Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:00:24.905Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:00:24.929Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:01:25.970Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:01:26.001Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:01:27.319Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:01:27.351Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:01:29.896Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:04:17.203Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:04:26.594Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:04:26.596Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:38.984Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:39.014Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:39.517Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:39.521Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:40.967Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:40.991Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:44.300Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:44.330Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:45.821Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:45.852Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:48.394Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:48.423Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:49.890Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:49.917Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:05:50.205Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:05:50.209Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:55.425Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:55.452Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:05:57.496Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:05:57.521Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:06:25.338Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:06:25.369Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:06:26.782Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:06:26.809Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:27.228Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:27.232Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cfs8d\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:06:35.166Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:35.167Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:06:41.951Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T14:06:41.956Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:43.670Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:43.671Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.144Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.145Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:06:45.715Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:06:45.716Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:06:54.020Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:06:54.046Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:06:56.251Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:06:56.274Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:07:19.921Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:07:19.955Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:07:21.336Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:07:21.360Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:28.712Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:28.716Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:07:52.418Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:07:52.452Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:07:54.543Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:07:54.572Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:54.707Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:54.712Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:07:56.048Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:09:37.619Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:09:37.646Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:09:39.474Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:09:39.501Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:39.985Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:39.989Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:09:58.415Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:09:58.451Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:09:59.818Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:09:59.845Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:09:59.957Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:09:59.961Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:10:47.051Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:10:47.081Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:10:48.476Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:10:48.501Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:11:13.782Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:11:13.808Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:11:18.452Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:11:18.455Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:25.127Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:25.156Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:27.712Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:27.739Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:29.110Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:29.114Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:45.521Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:45.549Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:45.849Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:45.853Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:47.485Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:47.508Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:12:49.336Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:12:49.340Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:56.504Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:56.535Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:12:58.508Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:12:58.533Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:13:20.180Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:13:20.209Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:13:21.608Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:13:21.637Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:22.877Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:13:22.880Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:13:32.370Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:13:32.396Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:13:33.952Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:13:33.981Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:46.123Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:13:48.993Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:14:05.992Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:14:06.019Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:14:08.060Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:14:08.089Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:09.466Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:11.304Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:14:22.972Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'remove' of undefined","timestamp":"2021-09-16T14:14:22.973Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:15:47.584Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:15:47.618Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:15:50.597Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:15:50.623Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:15:56.791Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:15:56.817Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:15:59.607Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:00.987Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:01.639Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"6138590be60acd01b39cf08\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T14:16:07.577Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:24.472Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:16:26.584Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T14:16:36.264Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:16:47.323Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T14:16:56.871Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T14:16:56.875Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T14:17:01.571Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:08.091Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:08.121Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:09.810Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:09.834Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:21.119Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:21.144Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:22.652Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:22.684Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:51.647Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:51.680Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:22:53.179Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:22:53.206Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:28:20.020Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:28:20.056Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:28:21.786Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:28:21.814Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:28:32.080Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:29:12.655Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:29:12.681Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:15.392Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:15.401Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:35.324Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:35.327Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:36.119Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:36.121Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:36.672Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:36.674Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:29:37.281Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T14:29:37.284Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T14:30:12.520Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:30:32.494Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:30:32.521Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:30:33.984Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:30:34.009Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:32:19.310Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:32:19.336Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:32:21.992Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:32:22.019Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:33:49.430Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:33:49.456Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:34:09.382Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:39:53.551Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:39:53.582Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:39:55.142Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:39:55.168Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:40:10.206Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:40:10.236Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:40:11.745Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:40:11.769Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:41:08.280Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:41:08.310Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:41:10.075Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:41:10.099Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:11.852Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:11.852Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:11.863Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.015Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.015Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.018Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.645Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:14.645Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:14.648Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:15.535Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:41:15.536Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:41:15.538Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:43:34.215Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:43:34.245Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:34.701Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:34.702Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:34.713Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:36.800Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:36.800Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:36.803Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:43:49.902Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:43:49.929Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:43:52.221Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:43:52.248Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:52.430Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:43:52.431Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:43:52.442Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:43:58.864Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:43:58.889Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:44:14.378Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:44:14.402Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:47:28.048Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:47:28.076Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:47:29.517Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:47:29.542Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:31.917Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:31.917Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:31.928Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:47:42.338Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:47:42.364Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:47:44.310Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:47:44.334Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:44.797Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:47:44.798Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:47:44.810Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:51:58.026Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:51:58.048Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:51:59.898Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:51:59.923Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:52:20.085Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:52:20.111Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:52:21.603Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:52:21.627Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:53:42.566Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:53:42.597Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:53:44.113Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:53:44.152Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:54:36.095Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:54:36.124Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:54:37.467Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:54:37.494Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:55:21.993Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:55:22.020Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T14:55:23.471Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isArchived: Cast to Boolean failed for value \"ssss\" (type string) at path \"isArchived\"","timestamp":"2021-09-16T14:55:23.483Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:57:55.398Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:57:55.423Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:58:19.121Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:58:19.148Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:58:20.728Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:58:20.755Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:59:22.079Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:59:22.111Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:59:23.477Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:59:23.504Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:59:33.762Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:59:33.792Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T14:59:35.144Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T14:59:35.171Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:00:04.956Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:00:04.986Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:00:06.410Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:00:06.446Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:05:19.793Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:05:19.823Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:05:21.349Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:05:21.376Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:07:58.593Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:07:58.629Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:08:00.146Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:08:00.170Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:08:39.389Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:08:39.415Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:08:47.988Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:08:48.019Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:09:40.586Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:09:40.622Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:09:41.996Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:09:42.019Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T15:10:09.076Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T15:10:38.169Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T15:10:38.174Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T15:10:55.145Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:13:54.242Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:13:54.271Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:13:55.964Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:13:55.989Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:16:06.272Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:16:06.302Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:16:07.631Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:16:07.656Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:22:01.533Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:22:01.560Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:22:32.920Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:22:32.953Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:22:34.930Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:22:34.958Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:22:35.381Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:24:33.882Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:24:33.909Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:24:39.567Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:24:52.401Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:24:52.429Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:25:34.596Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:25:34.625Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:25:37.109Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:25:37.130Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:02.528Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:02.563Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:04.206Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:04.233Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:10.070Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:10.099Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:11.593Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:11.620Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:18.947Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:18.982Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:29:20.634Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:29:20.659Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:29:29.544Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:30:21.088Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:30:21.115Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:30:23.304Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:30:23.332Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object]","timestamp":"2021-09-16T15:30:23.480Z"}
+{"level":"error","message":"Status: 422: [object Object],[object Object],[object Object]","timestamp":"2021-09-16T15:30:40.685Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:30:55.779Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T15:31:03.779Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:31:08.679Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:31:20.140Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T15:31:20.151Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:52:22.316Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:52:22.341Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T15:52:24.624Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T15:52:24.648Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:52:38.301Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T15:52:44.465Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T15:52:44.473Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:01:55.896Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:01:55.928Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:02:00.546Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"uu\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:00.571Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:02:29.913Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:02:29.918Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:03:08.583Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:03:08.614Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:10.094Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:10.125Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:18.096Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:18.103Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:03:47.399Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:03:47.429Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:03:49.394Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:03:49.426Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:03:53.746Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isPinned: Cast to Boolean failed for value \"hello\" (type string) at path \"isPinned\", isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:03:53.773Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:04:09.815Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:04:09.852Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:04:11.737Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:04:11.771Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:14.009Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:14.026Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:16.014Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:16.016Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:04:36.796Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:04:36.826Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:04:38.944Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:04:38.969Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:04:39.380Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:04:39.402Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:05:15.126Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:05:15.157Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:05:16.792Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:05:16.820Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:05:17.082Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\"","timestamp":"2021-09-16T16:05:17.105Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:06:22.381Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:06:22.406Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:06:23.969Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:23.993Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:06:40.330Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:06:40.362Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:06:42.463Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:06:42.493Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:06:43.647Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:06:43.674Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:10:19.443Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:10:19.468Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:10:21.512Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:10:21.538Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:10:40.494Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:10:40.520Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:10:42.475Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:10:42.501Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:10:46.993Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:11:07.266Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:11:07.288Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:12:03.354Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:12:03.384Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:12:05.730Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:12:05.755Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:12:06.647Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:12:06.670Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:13:04.451Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:13:04.493Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:13:06.108Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:13:06.137Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:13:06.514Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:06.539Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:13:39.612Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:13:39.639Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:13:41.268Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:13:41.299Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:13:41.585Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"5454\" (type number) at path \"isDeleted\", isPinned: Path `isPinned` is required.","timestamp":"2021-09-16T16:13:41.609Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:14:53.844Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:14:53.878Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:14:56.095Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:14:56.120Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:14:58.244Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:15:14.302Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:15:14.331Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:15:14.739Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:14.758Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:15:27.003Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:15:27.029Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:15:27.721Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:15:27.743Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:15:29.217Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:15:29.252Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:18:59.316Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:18:59.345Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:19:00.855Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:19:00.878Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:21:32.409Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:21:32.442Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:37.912Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:37.929Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:46.285Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:46.289Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-09-16T16:21:51.815Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:21:51.819Z"}
+{"level":"error","message":"Status: 422: [object Object]","timestamp":"2021-09-16T16:22:25.109Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:31.986Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:32.009Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:33.985Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:34.012Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:40.677Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:40.703Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:42.366Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:42.394Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:45.608Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:56.428Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:56.450Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:26:58.515Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:26:58.545Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:26:58.796Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:29.227Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:27:42.033Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:28:32.742Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:28:32.770Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:28:34.772Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:28:34.797Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:28:37.579Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:30:06.384Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:30:22.136Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:33:04.868Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:33:04.895Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:33:07.090Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:33:07.117Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:07.455Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:33:14.737Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:33:14.764Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:15.130Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:33:16.817Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:33:16.843Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\", color: Path `color` is required.","timestamp":"2021-09-16T16:33:17.995Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:34:26.762Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:34:26.788Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:34:28.793Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:34:28.830Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:28.927Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.242Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:30.926Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:31.477Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:34:54.898Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:34:54.925Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:34:57.109Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:34:57.136Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:34:57.322Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:35:49.397Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:35:49.429Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:35:51.080Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:35:51.111Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:35:52.438Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:36:44.719Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:36:44.752Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:36:46.190Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:36:46.214Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:37:14.632Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:37:14.660Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: isDeleted: Cast to Boolean failed for value \"#ffffff\" (type string) at path \"isDeleted\"","timestamp":"2021-09-16T16:37:15.075Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:37:27.124Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:37:27.156Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:37:28.505Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:37:28.532Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:37:28.793Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:38:25.653Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:38:25.683Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:38:27.255Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:38:27.284Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:38:33.069Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:43:45.190Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:43:45.217Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:43:46.684Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:43:46.711Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:48:26.613Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:48:26.641Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T16:48:33.648Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:48:51.364Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"614361f19f2c94f8ee4a76b\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-09-16T16:48:56.247Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:48:59.551Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:49:11.175Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-16T16:49:11.178Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-16T16:49:13.326Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:49:50.825Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:50:28.632Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:50:28.667Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:50:30.521Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:50:30.546Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-09-16T16:52:05.124Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-16T16:52:11.394Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:52:28.690Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:53:11.946Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:53:11.976Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:53:13.902Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:53:13.927Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:53:22.877Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:53:22.903Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:53:24.288Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:53:24.317Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:53:36.504Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:54:03.669Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:54:03.696Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:05.843Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:05.844Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:13.716Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:13.716Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:17.581Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:17.581Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:20.095Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.095Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:20.686Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:20.686Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:21.473Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:21.473Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:54:25.552Z"}
+{"level":"error","message":"Status: 422: Note with same title already exists","timestamp":"2021-09-16T16:54:25.552Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:55:21.966Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:55:21.990Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:55:42.646Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:55:42.677Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:55:44.308Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:55:44.336Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:46.292Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:46.304Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:49.869Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:49.873Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:55:58.017Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:55:58.020Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:08.656Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:56:08.660Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:25.303Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:32.429Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:56:32.433Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:56:34.333Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:58:34.821Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:58:34.858Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:58:36.291Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:58:36.325Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:58:54.737Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:58:54.771Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:58:56.375Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:58:56.399Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:59:12.637Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:59:12.670Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T16:59:14.234Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T16:59:14.264Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T16:59:16.250Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T16:59:16.265Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:01:00.442Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:01:00.467Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:01:02.098Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:01:02.125Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:02:13.215Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:02:13.244Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:02:59.459Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:02:59.483Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:03:01.026Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:03:01.051Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:01.994Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:02.012Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:03:32.251Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:03:32.271Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:03:34.001Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:03:34.030Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:35.553Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:35.571Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:03:44.759Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:03:44.791Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:44.851Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:44.872Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:03:46.178Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:03:46.208Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:03:48.224Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:03:48.240Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:04:34.321Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:04:34.353Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:04:36.072Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:04:36.099Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:04:37.846Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:04:37.865Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:06:07.591Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:06:07.618Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:06:09.167Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:06:09.188Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:13.156Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:16.695Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:16.711Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:20.876Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:20.884Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:27.972Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:06:30.228Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:06:30.237Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:07:44.218Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:07:44.246Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:07:45.656Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:07:45.697Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:45.788Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:45.806Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:46.759Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:46.765Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:49.273Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:49.282Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:51.689Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:51.695Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:07:53.674Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:07:53.680Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:03.710Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:03.717Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:11.082Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:11.089Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:25.121Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:25.128Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:08:49.178Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:08:49.184Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:09:54.411Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:09:54.440Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:09:56.072Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:09:56.097Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:09:58.898Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:09:58.918Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:03.986Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:03.992Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:09.500Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:09.508Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:14.099Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:14.106Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:10:40.650Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:10:40.678Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:10:42.435Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:10:42.460Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:54.230Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:10:54.252Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:10:59.989Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:11:00.000Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:11:08.596Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:11:08.603Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:11:22.834Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:12:33.063Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:12:33.091Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:12:47.550Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:12:47.581Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:12:49.037Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:12:49.062Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:49.499Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:49.509Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:50.330Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:50.333Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:52.826Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:52.829Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:12:56.573Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:12:56.577Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:00.322Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:00.326Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:13:06.681Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:13:06.713Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:13:08.317Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:13:08.344Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:08.679Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:08.692Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:13:20.060Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:13:20.065Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:13:58.583Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:13:58.611Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:14:00.106Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:14:00.134Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:06.187Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:13.736Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:14.363Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:14.914Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:14:17.540Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:14:17.553Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:14:34.339Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:15:00.539Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:15:00.566Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:15:02.332Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:15:02.358Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:02.540Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:15.103Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:15:15.117Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-16T17:15:18.604Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:36.936Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:39.090Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:15:39.731Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:16:35.688Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:16:35.722Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:16:37.510Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:16:37.535Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:16:38.650Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:16:53.932Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:16:53.960Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:16:55.397Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:16:55.422Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:16:56.216Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:17:49.386Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:17:49.412Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:17:51.441Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:17:51.469Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:17:54.174Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:14.376Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:14.412Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:15.798Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:15.824Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:16.001Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:35.387Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:35.420Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:36.981Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:37.007Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:38.370Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:48.588Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:48.615Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:18:50.417Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:18:50.443Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:18:52.533Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:19:14.856Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:19:14.882Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:19:16.204Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:19:16.229Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:19:17.225Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:20:16.593Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:20:16.625Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:20:18.060Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:20:18.085Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:18.997Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:25.044Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:20:38.570Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:22:53.056Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:22:53.074Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T17:22:54.589Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T17:22:54.606Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:55.105Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:55.772Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:57.746Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:23:05.580Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:23:05.590Z"}

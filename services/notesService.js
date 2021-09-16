@@ -1,28 +1,17 @@
-const notesController = require('../controllers/notesController')
 const notesModel = require('../models/notesModel')
-const {check, validationResult} = require('express-validator')
 const logger = require('../logger/notesLogger')
 
 let notesService = {
 
     //to return all notes
-    async returnAllNotes() {
+    async returnAllNotes(req, res) {
         try {
             const allnotes = await notesModel.find();
             logger.log('info', `Status: 200: Successfully returned all notes`)
-            return allnotes
+            res.status(200).json(this.createResponseObject(200, true, "Successfully returned all notes", allnotes))
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
-        }
-    },
-
-    //to return note by title
-    async returnNoteByTitle(req, res) {
-        try {
-            note = await notesModel.find({title:req.body.title})
-            return note
-        } catch (error) {
-            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
@@ -32,10 +21,22 @@ let notesService = {
             const note = await notesModel.findById(req.params.id)
             if (note == null) {
                 logger.log('error', `Status: 404: Note not found`)
+                res.status(404).json(this.createResponseObject(404, false, "Note not found"))
             }else{
                 logger.log('info', `Status: 200: Note found`)
                 return note
             }
+        } catch (error) {
+            logger.log('error', `Status: 404: ${error.message}`)
+            res.status(404).json(this.createResponseObject(404, false, "Note not found"))
+        }
+    },
+
+    //to return note by title
+    async returnNoteByTitle(req, res) {
+        try {
+            note = await notesModel.find({title:req.body.title})
+            return note
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
         }
@@ -66,80 +67,118 @@ let notesService = {
         }
     },  
 
+    //to create updated note object
+    createUpdatedNote(req, res) {
+        res.note.title = req.body.title
+        res.note.description = req.body.description
+        res.note.isPinned = req.body.isPinned != null ? req.body.isPinned : res.note.isPinned
+        res.note.isArchived = req.body.isArchived != null ? req.body.isArchived : res.note.isArchived
+        res.note.isDeleted = req.body.isDeleted != null ? req.body.isDeleted : res.note.isDeleted
+        res.note.color = req.body.color ||  res.note.color
+    },
+
+    //to create new note object
     createNote(req, res) {
-        const newNote = new notesModel({
-            title: req.body.title,
-            description: req.body.description,
+        let errors = []
+        let newNote = new notesModel({
+            title: null,
+            description: null,
+            isPinned: null,
+            isArchived: null,
+            isDeleted: null,
+            color: null
         })
-        this.validateTitleDescription()
+        if(req.body.title != null){
+            if(req.body.title.length > 3){
+                newNote.title = req.body.title
+            } else {
+                errors.push({"title": "title should have atleast 3 characters"})  
+            }
+        } else {
+            errors.push({"title": "title is required"})  
+        }
+        if(req.body.description != null){
+            if(req.body.description.length > 3){
+                newNote.description = req.body.description
+            } else {
+                errors.push({"description": "description should have atleast 3 characters"})  
+            }
+        } else {
+            errors.push({"description": "description is required"})  
+        }
+
         if(req.body.isPinned != null){
-            newNote.isPinned = req.body.isPinned
-            this.validateIsPinned()
+            if(typeof req.body.isPinned == "boolean"){
+                newNote.isPinned = req.body.isPinned
+            } else {
+                errors.push({"isPinned": "isPinned should be boolean"})                
+            }
+        }else {
+            newNote.isPinned = false
         }
         if(req.body.isArchived != null){
-            newNote.isArchived = req.body.isArchived
-            this.validateIsArchived()
+            if(typeof req.body.isArchived == "boolean"){
+                newNote.isArchived = req.body.isArchived
+            } else {
+                errors.push({"isArchived": "isArchived should be boolean"})                
+            }
+        }else {
+            newNote.isArchived = false
         }
+        if(req.body.isDeleted != null){
+            if(typeof req.body.isDeleted == "boolean"){
+                newNote.isDeleted = req.body.isDeleted
+            } else {
+                errors.push({"isDeleted": "isDeleted should be boolean"})                
+            }
+        }else {
+            newNote.isDeleted = false
+        }
+
         if(req.body.color != null){
-            newNote.color = req.body.color
-            this.validateColor()
+            let reg = /^#([0-9A-F]{3}){1,2}$/i
+            if(reg.test(req.body.color)){
+                newNote.color = req.body.color
+            } else{
+                errors.push({"color": "color should be in hex format"})    
+            }
+        }else {
+            newNote.color = "#ffffff"
         }
-           // logger.log('error', `Status: 422: Note with same title already exists`)
-        return newNote
-    },
 
-    //check if note with same title exists
-    sameTitleExists(req, res) {
-        if(res.notes.length != 0) {
-            logger.log('error', `Status: 422: Note with same title already exists`)
-            return true
-        } else {
-            res.note.title = req.body.title
-            res.note.description = req.body.description
-            res.note.isPinned = req.body.isPinned
-            res.note.isArchived = req.body.isArchived
-            res.note.color = req.body.color
-            return false
+        if(errors.length == 0){
+            res.note = newNote
+        }else{
+            res.status(422).json(this.createResponseObject(422, false, "Invalid data", errors))
         }
-        
     },
 
-    //isArchived validation function
-    validateIsArchived(){
-        return check("isArchived")
-        .isBoolean()
-        .withMessage("isArchived must be boolean")
-    },
-
-    //isPinned validation function
-    validateIsPinned(){
-        return check("isPinned")
-        .isBoolean()
-        .withMessage("isPinned must be boolean")
-    },
-
-    //color validation function
-    validateColor(){
-        return check("color")
-        .isHexColor()
-        .withMessage("color should be in hex")
-    },
-
-    //Validation rules
-    validateTitleDescription() {
-        return [
-            check("title")
-            .not().isEmpty()
-            .withMessage("Title is required")
-            .isLength({min:3})
-            .withMessage("Title should have atleast 3 characters"),
-
-            check("description")
-            .not().isEmpty()
-            .withMessage("Description is required")
-            .isLength({min:3})
-            .withMessage("Description should have atleast 3 characters")
-        ]
+    //to create response object for data
+    createResponseObject(status, success, message, data, token){
+        let responseObject = {
+            status,
+            success,
+            message,
+            data: null
+        }
+        if(data != null){
+            responseObject.data = data
+        }else{
+            responseObject = {
+                status,
+                success,
+                message
+            }
+        }
+        if(data != null && token != null){
+            responseObject.data = {
+                firstName: data.firstName,
+                lastName: data.lastName,
+                email: data.email,
+                token: token
+            }
+        }
+        return responseObject
     }
 }
 
