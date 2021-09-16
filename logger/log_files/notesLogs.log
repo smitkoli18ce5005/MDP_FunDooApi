@@ -505,3 +505,8 @@
 {"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:22:57.746Z"}
 {"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-16T17:23:05.580Z"}
 {"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-16T17:23:05.590Z"}
+{"level":"error","message":"Status: 500: Query was already executed: notesModel.find({})","timestamp":"2021-09-16T17:36:22.052Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:38:23.390Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:41:29.969Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:41:57.104Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T17:42:18.907Z"}

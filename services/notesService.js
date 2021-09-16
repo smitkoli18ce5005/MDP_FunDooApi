@@ -6,10 +6,22 @@ let notesService = {
     //to return all notes
     async returnAllNotes(req, res) {
         try {
-            const allnotes = await notesModel.find();
+            const allnotes = await notesModel.find()
             logger.log('info', `Status: 200: Successfully returned all notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all notes", allnotes))
         } catch (error) {
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
+    //to return all archived notes
+    async returnAllArchivedNotes(req, res){
+        try{
+            const allArchivednotes = await notesModel.find({isArchived: true})
+            logger.log('info', `Status: 200: Successfully returned all archived notes`)
+            res.status(200).json(this.createResponseObject(200, true, "Successfully returned all archived notes", allArchivednotes))
+        } catch(error){
             logger.log('error', `Status: 500: ${error.message}`)
             res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }

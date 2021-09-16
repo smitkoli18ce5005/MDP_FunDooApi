@@ -6,6 +6,8 @@ notesRouter.get('/getAllNotes', notesController.getAllnotes)
 
 notesRouter.get('/getNote/:id', notesController.getNotesByID, notesController.displayNote)
 
+notesRouter.get('/getAllArchivedNotes', notesController.getAllArchived)
+
 notesRouter.delete('/deleteNote/:id', notesController.getNotesByID, notesController.deleteNote)
 
 notesRouter.post('/addNotes', notesController.getNotesByTitle, notesController.addNewNote)
