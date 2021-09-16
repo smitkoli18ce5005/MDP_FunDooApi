@@ -17,3 +17,4 @@
 * Added route in user api for forget and reset password
 * Code cleanup for notes api
 * Added route in notes api for getting all archived notes
+* Added route in notes api for getting all trashed notes

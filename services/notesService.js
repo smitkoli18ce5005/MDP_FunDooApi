@@ -27,6 +27,18 @@ let notesService = {
         }
     },
 
+    //to return all trashed notes
+    async returnAllTrashedNotes(req, res){
+        try{
+            const allTrashednotes = await notesModel.find({isDeleted: true})
+            logger.log('info', `Status: 200: Successfully returned all trashed notes`)
+            res.status(200).json(this.createResponseObject(200, true, "Successfully returned all trashed notes", allTrashednotes))
+        } catch(error){
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
     //to return note by id
     async returnNoteByID(req, res) {
         try {

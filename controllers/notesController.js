@@ -11,6 +11,14 @@ let notesController = {
           }
     },
 
+    async getAllTrashedNotes(req, res) {
+        try{
+            await notesService.returnAllTrashedNotes(req, res)
+        } catch(error){
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
     async getAllArchived(req, res) {
         try{
             await notesService.returnAllArchivedNotes(req, res)
