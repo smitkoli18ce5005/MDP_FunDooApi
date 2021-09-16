@@ -77,6 +77,14 @@ let notesController = {
         }
     },
 
+    async archiveNote(req, res){
+        try{
+            await notesService.toggleArchive(req, res)
+        } catch(error){
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
     async getNotesByID(req, res, next) {
         let note;
         try {

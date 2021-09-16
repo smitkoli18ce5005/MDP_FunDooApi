@@ -18,3 +18,4 @@
 * Code cleanup for notes api
 * Added route in notes api for getting all archived notes
 * Added route in notes api for getting all trashed notes
+* Added route in notes api to archive note

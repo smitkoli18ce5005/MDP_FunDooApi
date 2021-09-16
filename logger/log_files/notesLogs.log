@@ -1,0 +1,13 @@
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T18:09:55.135Z"}
+{"level":"error","message":"Status: 500: isArchived is not defined","timestamp":"2021-09-16T18:10:27.276Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:15.945Z"}
+{"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:15.946Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:24.551Z"}
+{"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:24.551Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:55.583Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:57.275Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:58.072Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:58.648Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.124Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.598Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:15:00.047Z"}

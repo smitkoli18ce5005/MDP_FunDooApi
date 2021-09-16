@@ -39,6 +39,20 @@ let notesService = {
         }
     },
 
+    // to toggle archive
+    async toggleArchive(req, res){
+        try{
+            let note = await notesModel.findById(req.params.id)
+            note.isArchived = !note.isArchived
+            await note.save()
+            logger.log('info', `Status: 200: Note successfully archived`)
+            res.status(200).json(this.createResponseObject(200, true, "Note successfully archived", note))
+        } catch (error){
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
     //to return note by id
     async returnNoteByID(req, res) {
         try {

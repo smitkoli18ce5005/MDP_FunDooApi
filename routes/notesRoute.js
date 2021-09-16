@@ -16,4 +16,6 @@ notesRouter.post('/addNotes', notesController.getNotesByTitle, notesController.a
 
 notesRouter.patch('/updateNote/:id', notesController.getNotesByID, notesController.getNotesByTitle, notesController.updateNote)
 
+notesRouter.patch('/archiveNote/:id', notesController.archiveNote)
+
 module.exports = notesRouter

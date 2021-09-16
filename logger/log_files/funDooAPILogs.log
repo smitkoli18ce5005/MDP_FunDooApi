@@ -1,0 +1,27 @@
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:09:45.227Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:09:45.251Z"}
+{"level":"info","message":"Status: 200: Successfully returned all archived notes","timestamp":"2021-09-16T18:09:55.135Z"}
+{"level":"error","message":"Status: 500: isArchived is not defined","timestamp":"2021-09-16T18:10:27.276Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:11:04.286Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:11:04.305Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:11:06.224Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:11:06.240Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:14:06.441Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:14:06.460Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:14:07.889Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:14:07.908Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:15.945Z"}
+{"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:15.946Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:24.551Z"}
+{"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:24.551Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:14:52.552Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:14:52.573Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-16T18:14:54.498Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-16T18:14:54.515Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:55.583Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:57.275Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:58.072Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:58.648Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.124Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.598Z"}
+{"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:15:00.047Z"}
