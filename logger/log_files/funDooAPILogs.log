@@ -25,3 +25,169 @@
 {"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.124Z"}
 {"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:14:59.598Z"}
 {"level":"info","message":"Status: 200: Note successfully archived","timestamp":"2021-09-16T18:15:00.047Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-17T06:07:48.659Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-17T06:07:48.693Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:27:51.889Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:27:51.918Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:28:12.238Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:28:33.341Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:28:33.351Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:28:39.872Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:28:39.873Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:28:45.895Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:28:45.897Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:28:51.819Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:28:51.821Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:28:59.149Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:28:59.150Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:05.462Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:05.463Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:11.938Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:11.939Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:17.420Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:17.421Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:22.534Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:22.535Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:29:24.501Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:30.115Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:30.117Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:35.858Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:35.859Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:41.927Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:41.929Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:47.532Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:47.533Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:52.564Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:52.565Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:29:58.177Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:29:58.178Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:30:04.333Z"}
+{"level":"info","message":"Status: 200: Successfully deleted note","timestamp":"2021-09-18T18:30:04.334Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T18:30:05.041Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:30:07.828Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:32:17.857Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:32:17.885Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:32:20.350Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:32:20.379Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:32:24.377Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:32:24.400Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:32:26.248Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:32:26.269Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-18T18:33:32.336Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:33:39.567Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:33:39.576Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:33:43.987Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:33:43.992Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:33:45.150Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:33:45.153Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:33:49.344Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:33:52.904Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:33:53.857Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:36:24.157Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:36:24.184Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:36:25.935Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:36:25.963Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:36:27.145Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:36:33.495Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:36:33.506Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:36:35.783Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:37:53.445Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:37:53.472Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:37:55.623Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:37:55.643Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:39:29.233Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:39:29.260Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:39:30.880Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:39:30.901Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:39:40.186Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:39:44.339Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:39:44.350Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:39:46.366Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:39:56.487Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:39:56.490Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:39:57.321Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:39:57.326Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:41:41.820Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:41:41.823Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:41:44.211Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:41:44.215Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:42:03.011Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-18T18:42:03.014Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:42:03.986Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:42:10.581Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:10.583Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:42:16.845Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:42:19.175Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:42:19.178Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:42:25.878Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:42:31.447Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:31.449Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:42:33.516Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:42:37.659Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:44:28.279Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-18T18:44:28.283Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:44:35.451Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:45:02.284Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:46:49.697Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:46:49.720Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:46:51.589Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:46:51.614Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:53.091Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:53.801Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:54.341Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:55.023Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:55.479Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:56.791Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:46:57.333Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:47:12.620Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:47:12.645Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:47:14.121Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:47:14.143Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:47:17.839Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:47:17.849Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:47:22.118Z"}
+{"level":"info","message":"Status: 200: Note successfully deleted","timestamp":"2021-09-18T18:47:22.123Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:47:24.698Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:47:27.016Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:47:46.095Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:47:46.122Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:47:47.654Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:47:47.677Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:47:48.545Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:49:53.782Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:49:53.806Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:49:55.407Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:49:55.431Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:49:56.507Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:50:35.325Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:50:35.353Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:50:36.857Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:50:36.879Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:50:39.551Z"}
+{"level":"info","message":"Status: 200: Note successfully added","timestamp":"2021-09-18T18:50:52.605Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:50:56.000Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:51:31.873Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:51:51.981Z"}
+{"level":"info","message":"Status: 200: Note successfully updated","timestamp":"2021-09-18T18:51:51.985Z"}
+{"level":"info","message":"Status: 200: Note found","timestamp":"2021-09-18T18:51:53.117Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:51:55.917Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:53:23.002Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:53:23.025Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:53:25.122Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:53:25.149Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:54:04.085Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:54:04.109Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:54:45.715Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:54:45.736Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T18:54:47.174Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-09-18T18:54:47.197Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:49.792Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:51.625Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:52.204Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:52.711Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:53.161Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:53.569Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:54.055Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:54.522Z"}
+{"level":"info","message":"Status: 200: Note successfully pinned","timestamp":"2021-09-18T18:54:55.075Z"}
+{"level":"info","message":"Status: 200: Successfully returned all notes","timestamp":"2021-09-18T18:54:59.694Z"}

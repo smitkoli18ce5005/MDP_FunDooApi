@@ -18,4 +18,6 @@ notesRouter.patch('/updateNote/:id', notesController.getNotesByID, notesControll
 
 notesRouter.patch('/archiveNote/:id', notesController.archiveNote)
 
+notesRouter.patch('/pinNote/:id', notesController.pinNote)
+
 module.exports = notesRouter

@@ -1,3 +1,8 @@
 {"level":"error","message":"Status: 500: isArchived is not defined","timestamp":"2021-09-16T18:10:27.276Z"}
 {"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:15.946Z"}
 {"level":"error","message":"Status: 500: allTrashednotes is not defined","timestamp":"2021-09-16T18:14:24.551Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T18:30:05.041Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:41:41.823Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:41:44.215Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:10.583Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:31.449Z"}

@@ -53,18 +53,15 @@ let notesController = {
     },
 
     async deleteNote(req, res) {
-        try {
-            if(res.note != null){
-                await notesService.removeNote(res.note)
-                res.status(200).json(notesService.createResponseObject(200, true, "Deleted note", res.note))
-            }
-        } catch (error) {
+        try{
+            await notesService.toggleDelete(req, res)
+        } catch(error){
             res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
     async updateNote(req, res) {
-        if(res.noteExists.length != 0) {
+        if(res.noteExists.length != 0 && res.note._id != res.noteExists._id) {
             res.status(422).json(notesService.createResponseObject(422, false, "Note with same title already exists"))
         } else {
             try {
@@ -80,6 +77,14 @@ let notesController = {
     async archiveNote(req, res){
         try{
             await notesService.toggleArchive(req, res)
+        } catch(error){
+            res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
+    async pinNote(req, res){
+        try{
+            await notesService.togglePin(req, res)
         } catch(error){
             res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }

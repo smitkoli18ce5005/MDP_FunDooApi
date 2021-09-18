@@ -6,7 +6,7 @@ let notesService = {
     //to return all notes
     async returnAllNotes(req, res) {
         try {
-            const allnotes = await notesModel.find()
+            const allnotes = await notesModel.find({isArchived: false, isDeleted: false})
             logger.log('info', `Status: 200: Successfully returned all notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all notes", allnotes))
         } catch (error) {
@@ -39,20 +39,6 @@ let notesService = {
         }
     },
 
-    // to toggle archive
-    async toggleArchive(req, res){
-        try{
-            let note = await notesModel.findById(req.params.id)
-            note.isArchived = !note.isArchived
-            await note.save()
-            logger.log('info', `Status: 200: Note successfully archived`)
-            res.status(200).json(this.createResponseObject(200, true, "Note successfully archived", note))
-        } catch (error){
-            logger.log('error', `Status: 500: ${error.message}`)
-            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
-        }
-    },
-
     //to return note by id
     async returnNoteByID(req, res) {
         try {
@@ -77,6 +63,48 @@ let notesService = {
             return note
         } catch (error) {
             logger.log('error', `Status: 500: ${error.message}`)
+        }
+    },
+
+    // to toggle archive
+    async toggleArchive(req, res){
+        try{
+            let note = await notesModel.findById(req.params.id)
+            note.isArchived = !note.isArchived
+            await note.save()
+            logger.log('info', `Status: 200: Note successfully archived`)
+            res.status(200).json(this.createResponseObject(200, true, "Note successfully archived", note))
+        } catch (error){
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
+    // to toggle pin
+    async togglePin(req, res){
+        try{
+            let note = await notesModel.findById(req.params.id)
+            note.isPinned = !note.isPinned
+            await note.save()
+            logger.log('info', `Status: 200: Note successfully pinned`)
+            res.status(200).json(this.createResponseObject(200, true, "Note successfully pinned", note))
+        } catch (error){
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+        }
+    },
+
+    // to toggle delete
+    async toggleDelete(req, res){
+        try{
+            let note = await notesModel.findById(req.params.id)
+            note.isDeleted = !note.isDeleted
+            await note.save()
+            logger.log('info', `Status: 200: Note successfully deleted`)
+            res.status(200).json(this.createResponseObject(200, true, "Note successfully deleted", note))
+        } catch (error){
+            logger.log('error', `Status: 500: ${error.message}`)
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
