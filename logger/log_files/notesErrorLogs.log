@@ -6,3 +6,38 @@
 {"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:41:44.215Z"}
 {"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:10.583Z"}
 {"level":"error","message":"Status: 500: notesModel validation failed: title: Path `title` is required.","timestamp":"2021-09-18T18:42:31.449Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:04.730Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:04.733Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:32.527Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:32.529Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:44.364Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:44.373Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:45.317Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:45.319Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:46.339Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:46.341Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:12:46.972Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:12:46.974Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:13:37.629Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:13:37.635Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:13:45.478Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:13:45.484Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:13:47.473Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:13:47.478Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:14:26.939Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:14:29.592Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:14:30.401Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:14:48.596Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:14:49.519Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:25:35.139Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: userID: Path `userID` is required.","timestamp":"2021-09-18T19:28:30.425Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: userID: Path `userID` is required.","timestamp":"2021-09-18T19:28:39.402Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:31:28.530Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:31:28.532Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: userID: Path `userID` is required.","timestamp":"2021-09-18T19:31:41.373Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:31:50.440Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:31:53.191Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:31:53.192Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: userID: Path `userID` is required.","timestamp":"2021-09-18T19:32:01.961Z"}
+{"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:32:03.620Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:32:03.623Z"}

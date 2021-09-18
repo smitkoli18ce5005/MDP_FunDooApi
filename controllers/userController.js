@@ -7,11 +7,12 @@ let userController = {
 
     //to return all users
     async getAllUsers(req, res) {
+        console.log(res.token.id)
         try {
             await userService.getAllUsersService(req, res)
           } catch (error) {  
             // 503 - Service Unavailable.
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
           }
     },
 
@@ -20,7 +21,7 @@ let userController = {
         try{
             await userService.loginService(req, res)
         } catch (error) {
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
@@ -74,7 +75,7 @@ let userController = {
         try{
             user = await userService.returnUserByEmail(req, res)
         } catch (error) {
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
         res.user = user
         next()
@@ -91,7 +92,7 @@ let userController = {
                 await userService.saveUser(newUser)
                 res.status(200).json(userService.createResponseObject(200, true, "User successfully registered"))
             } catch (error) {
-                res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+                res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
             }
         }
     },
@@ -101,7 +102,7 @@ let userController = {
         try {
             await userService.removeUser(req, res)
         } catch (error) {
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable", error.message))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
@@ -115,7 +116,7 @@ let userController = {
                 next();
             }
         } catch (error) {
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
 
@@ -133,7 +134,7 @@ let userController = {
         try{
             userService.sendResetMail(req, res)
         }catch(error){
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
     },
     
@@ -167,7 +168,7 @@ let userController = {
         try{
             await userService.updatePassword(req, res)
         }catch(error){
-            res.status(503).json(userService.createResponseObject(503, false, "Service Unavailable"))
+            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
         }
         
     }

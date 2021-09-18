@@ -20,6 +20,10 @@ const notesSchema = new mongoose.Schema({
     },
     "color": {
         type: String
+    },
+    "userID":{
+        type: String,
+        required: true
     }
 })
 

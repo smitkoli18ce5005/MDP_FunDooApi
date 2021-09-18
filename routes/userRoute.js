@@ -17,5 +17,4 @@ userRouter.post('/forgetPassword', userController.getUserByEmail, userController
 
 userRouter.patch('/resetPassword/:token', userController.validatePassword, userController.verifyToken, userController.resetPassword)
 
-
 module.exports = userRouter

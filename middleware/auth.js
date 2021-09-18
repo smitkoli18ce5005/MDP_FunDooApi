@@ -20,7 +20,7 @@ function verifyToken(req, res, next) {
       message: "No Token",
     });
   } else {
-    jwt.verify(authToken, process.env.TOKEN_KEY, (error, user) => {
+    jwt.verify(authToken, process.env.TOKEN_KEY, (error, token) => {
       if (error) {
         res.status(403).json({
           status: 403,
@@ -28,7 +28,7 @@ function verifyToken(req, res, next) {
           message: "Invalid Token",
         });
       } else {
-        req.user = user;
+        res.token = token;
         next();
       }
     });

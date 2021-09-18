@@ -93,15 +93,15 @@ let notesController = {
     async getNotesByID(req, res, next) {
         let note;
         try {
-          res.note = await notesService.returnNoteByID(req, res)
+            res.note = await notesService.returnNoteByID(req, res)
         } catch (error) {
             res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
         }
-        next();
+        next()
     },
 
     displayNote(req, res) {
-        if(res.note != null){
+        if(res.note != null && res.note.userID == res.token.id){
             res.status(200).json(notesService.createResponseObject(200, true, "Successfully returned note", res.note))
         }
     }

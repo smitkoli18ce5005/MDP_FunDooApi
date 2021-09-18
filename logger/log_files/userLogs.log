@@ -1,0 +1,9 @@
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-18T19:02:11.974Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-18T19:02:43.572Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-18T19:03:13.292Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-09-18T19:03:30.075Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-18T19:24:33.500Z"}
+{"level":"info","message":"Status: 200: Successfully returned user","timestamp":"2021-09-18T19:24:33.501Z"}
+{"level":"info","message":"Status: 200: User found","timestamp":"2021-09-18T19:24:41.530Z"}
+{"level":"info","message":"Status: 200: Successfully returned user","timestamp":"2021-09-18T19:24:41.530Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-09-18T19:38:31.499Z"}

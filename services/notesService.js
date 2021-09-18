@@ -6,7 +6,7 @@ let notesService = {
     //to return all notes
     async returnAllNotes(req, res) {
         try {
-            const allnotes = await notesModel.find({isArchived: false, isDeleted: false})
+            const allnotes = await notesModel.find({isArchived: false, isDeleted: false, userID: res.token.id})
             logger.log('info', `Status: 200: Successfully returned all notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all notes", allnotes))
         } catch (error) {
@@ -18,7 +18,7 @@ let notesService = {
     //to return all archived notes
     async returnAllArchivedNotes(req, res){
         try{
-            const allArchivednotes = await notesModel.find({isArchived: true})
+            const allArchivednotes = await notesModel.find({isArchived: true, userID: res.token.id})
             logger.log('info', `Status: 200: Successfully returned all archived notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all archived notes", allArchivednotes))
         } catch(error){
@@ -30,7 +30,7 @@ let notesService = {
     //to return all trashed notes
     async returnAllTrashedNotes(req, res){
         try{
-            const allTrashednotes = await notesModel.find({isDeleted: true})
+            const allTrashednotes = await notesModel.find({isDeleted: true, userID: res.token.id})
             logger.log('info', `Status: 200: Successfully returned all trashed notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all trashed notes", allTrashednotes))
         } catch(error){
@@ -47,8 +47,12 @@ let notesService = {
                 logger.log('error', `Status: 404: Note not found`)
                 res.status(404).json(this.createResponseObject(404, false, "Note not found"))
             }else{
-                logger.log('info', `Status: 200: Note found`)
-                return note
+                if(note.userID == res.token.id){
+                    logger.log('info', `Status: 200: Note found`)
+                    return note
+                } else {
+                    res.status(404).json(this.createResponseObject(404, false, "Note not found"))
+                }
             }
         } catch (error) {
             logger.log('error', `Status: 404: ${error.message}`)
@@ -152,7 +156,8 @@ let notesService = {
             isPinned: null,
             isArchived: null,
             isDeleted: null,
-            color: null
+            color: null,
+            userID: res.token.id
         })
         if(req.body.title != null){
             if(req.body.title.length > 3){
