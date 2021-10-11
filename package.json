@@ -10,12 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.5",
     "nodemailer": "^6.6.3",
     "swagger-ui-express": "^4.1.6",
+    "vuelidate": "^0.7.6",
     "winston": "^3.3.3",
     "yamljs": "^0.3.0"
   },

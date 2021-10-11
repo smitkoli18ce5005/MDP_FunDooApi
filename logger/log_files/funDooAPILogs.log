@@ -452,3 +452,13 @@
 {"level":"info","message":"Connected to database","timestamp":"2021-09-18T19:45:10.187Z"}
 {"level":"info","message":"Server started at port 2000!","timestamp":"2021-09-18T19:45:11.567Z"}
 {"level":"info","message":"Connected to database","timestamp":"2021-09-18T19:45:11.589Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-10-06T10:28:40.760Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-10-06T10:28:40.791Z"}
+{"level":"info","message":"Status: 200: Successfully logged in","timestamp":"2021-10-06T10:32:39.457Z"}
+{"level":"info","message":"Status: 200: Successfully returned all users","timestamp":"2021-10-06T10:33:44.324Z"}
+{"level":"info","message":"Server started at port 2000!","timestamp":"2021-10-11T03:31:30.599Z"}
+{"level":"info","message":"Connected to database","timestamp":"2021-10-11T03:31:30.618Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-10-11T03:36:32.795Z"}
+{"level":"error","message":"Status: 422: User already exists","timestamp":"2021-10-11T03:36:32.861Z"}
+{"level":"info","message":"Status: 200: Entered data is valid","timestamp":"2021-10-11T03:37:41.112Z"}
+{"level":"info","message":"Status: 200: Successfully signed up","timestamp":"2021-10-11T03:37:41.179Z"}
