@@ -61,9 +61,6 @@ let notesController = {
     },
 
     async updateNote(req, res) {
-        if(res.noteExists.length != 0 && res.note._id != res.noteExists._id) {
-            res.status(422).json(notesService.createResponseObject(422, false, "Note with same title already exists"))
-        } else {
             try {
                 notesService.createUpdatedNote(req, res)
                 const updatedNote = await notesService.saveNote(res.note, true)
@@ -71,7 +68,7 @@ let notesController = {
             } catch (error) {
                 res.status(500).json(notesService.createResponseObject(500, false, "Server side error", error.message))
             }
-        }
+        
     },
 
     async archiveNote(req, res){

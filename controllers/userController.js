@@ -168,7 +168,7 @@ let userController = {
         try{
             await userService.updatePassword(req, res)
         }catch(error){
-            res.status(500).json(this.createResponseObject(500, false, "Server side error", error.message))
+            res.status(500).json(userService.createResponseObject(500, false, "Server side error", error.message))
         }
         
     }

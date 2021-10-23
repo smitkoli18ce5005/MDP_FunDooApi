@@ -18,7 +18,7 @@ let notesService = {
     //to return all archived notes
     async returnAllArchivedNotes(req, res){
         try{
-            const allArchivednotes = await notesModel.find({isArchived: true, userID: res.token.id})
+            const allArchivednotes = await notesModel.find({isArchived: true, isDeleted: false, userID: res.token.id})
             logger.log('info', `Status: 200: Successfully returned all archived notes`)
             res.status(200).json(this.createResponseObject(200, true, "Successfully returned all archived notes", allArchivednotes))
         } catch(error){

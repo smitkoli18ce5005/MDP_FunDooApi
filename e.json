@@ -1,0 +1,1497 @@
+{
+    "userType": "Free",
+    "baseCurrency": "GBP",
+    "asOfDate": "2021-10-21T00:00:00.000",
+    "startDate": "2011-01-01T00:00:00.000",
+    "categoryName": "Foreign Large Blend",
+    "indexName": "Morningstar Global TME GR USD",
+    "graphData": {
+        "fund": [
+            {
+                "date": "2014-06-30",
+                "value": null
+            },
+            {
+                "date": "2014-07-31",
+                "value": null
+            },
+            {
+                "date": "2014-08-31",
+                "value": null
+            },
+            {
+                "date": "2014-09-30",
+                "value": null
+            },
+            {
+                "date": "2014-10-31",
+                "value": null
+            },
+            {
+                "date": "2014-11-30",
+                "value": null
+            },
+            {
+                "date": "2014-12-31",
+                "value": null
+            },
+            {
+                "date": "2015-01-31",
+                "value": null
+            },
+            {
+                "date": "2015-02-28",
+                "value": null
+            },
+            {
+                "date": "2015-03-31",
+                "value": null
+            },
+            {
+                "date": "2015-04-30",
+                "value": null
+            },
+            {
+                "date": "2015-05-31",
+                "value": null
+            },
+            {
+                "date": "2015-06-30",
+                "value": null
+            },
+            {
+                "date": "2015-07-31",
+                "value": null
+            },
+            {
+                "date": "2015-08-31",
+                "value": null
+            },
+            {
+                "date": "2015-09-30",
+                "value": null
+            },
+            {
+                "date": "2015-10-31",
+                "value": null
+            },
+            {
+                "date": "2015-11-30",
+                "value": null
+            },
+            {
+                "date": "2015-12-31",
+                "value": null
+            },
+            {
+                "date": "2016-01-31",
+                "value": null
+            },
+            {
+                "date": "2016-02-29",
+                "value": null
+            },
+            {
+                "date": "2016-03-31",
+                "value": null
+            },
+            {
+                "date": "2016-04-30",
+                "value": null
+            },
+            {
+                "date": "2016-05-31",
+                "value": null
+            },
+            {
+                "date": "2016-06-30",
+                "value": null
+            },
+            {
+                "date": "2016-07-31",
+                "value": null
+            },
+            {
+                "date": "2016-08-31",
+                "value": null
+            },
+            {
+                "date": "2016-09-30",
+                "value": null
+            },
+            {
+                "date": "2016-10-31",
+                "value": null
+            },
+            {
+                "date": "2016-11-30",
+                "value": null
+            },
+            {
+                "date": "2016-12-31",
+                "value": null
+            },
+            {
+                "date": "2017-01-31",
+                "value": null
+            },
+            {
+                "date": "2017-02-28",
+                "value": null
+            },
+            {
+                "date": "2017-03-31",
+                "value": null
+            },
+            {
+                "date": "2017-04-30",
+                "value": null
+            },
+            {
+                "date": "2017-05-31",
+                "value": null
+            },
+            {
+                "date": "2017-06-30",
+                "value": null
+            },
+            {
+                "date": "2017-07-31",
+                "value": null
+            },
+            {
+                "date": "2017-08-31",
+                "value": null
+            },
+            {
+                "date": "2017-09-30",
+                "value": null
+            },
+            {
+                "date": "2017-10-31",
+                "value": null
+            },
+            {
+                "date": "2017-11-30",
+                "value": null
+            },
+            {
+                "date": "2017-12-31",
+                "value": null
+            },
+            {
+                "date": "2018-01-31",
+                "value": null
+            },
+            {
+                "date": "2018-02-28",
+                "value": null
+            },
+            {
+                "date": "2018-03-31",
+                "value": null
+            },
+            {
+                "date": "2018-04-30",
+                "value": null
+            },
+            {
+                "date": "2018-05-31",
+                "value": null
+            },
+            {
+                "date": "2018-06-30",
+                "value": null
+            },
+            {
+                "date": "2018-07-31",
+                "value": null
+            },
+            {
+                "date": "2018-08-31",
+                "value": null
+            },
+            {
+                "date": "2018-09-30",
+                "value": null
+            },
+            {
+                "date": "2018-10-31",
+                "value": null
+            },
+            {
+                "date": "2018-11-30",
+                "value": null
+            },
+            {
+                "date": "2018-12-31",
+                "value": null
+            },
+            {
+                "date": "2019-01-31",
+                "value": null
+            },
+            {
+                "date": "2019-02-28",
+                "value": null
+            },
+            {
+                "date": "2019-03-31",
+                "value": null
+            },
+            {
+                "date": "2019-04-30",
+                "value": null
+            },
+            {
+                "date": "2019-05-31",
+                "value": null
+            },
+            {
+                "date": "2019-06-30",
+                "value": null
+            },
+            {
+                "date": "2019-07-31",
+                "value": null
+            },
+            {
+                "date": "2019-08-31",
+                "value": null
+            },
+            {
+                "date": "2019-09-30",
+                "value": null
+            },
+            {
+                "date": "2019-10-31",
+                "value": null
+            },
+            {
+                "date": "2019-11-30",
+                "value": null
+            },
+            {
+                "date": "2019-12-31",
+                "value": null
+            },
+            {
+                "date": "2020-01-31",
+                "value": null
+            },
+            {
+                "date": "2020-02-29",
+                "value": null
+            },
+            {
+                "date": "2020-03-31",
+                "value": null
+            },
+            {
+                "date": "2020-04-30",
+                "value": null
+            },
+            {
+                "date": "2020-05-31",
+                "value": null
+            },
+            {
+                "date": "2020-06-30",
+                "value": null
+            },
+            {
+                "date": "2020-07-31",
+                "value": null
+            },
+            {
+                "date": "2020-08-31",
+                "value": null
+            },
+            {
+                "date": "2020-09-30",
+                "value": null
+            },
+            {
+                "date": "2020-10-31",
+                "value": null
+            },
+            {
+                "date": "2020-11-30",
+                "value": null
+            },
+            {
+                "date": "2020-12-31",
+                "value": null
+            },
+            {
+                "date": "2021-01-31",
+                "value": null
+            },
+            {
+                "date": "2021-02-28",
+                "value": null
+            },
+            {
+                "date": "2021-03-31",
+                "value": null
+            },
+            {
+                "date": "2021-04-30",
+                "value": null
+            },
+            {
+                "date": "2021-05-31",
+                "value": null
+            },
+            {
+                "date": "2021-06-30",
+                "value": null
+            },
+            {
+                "date": "2021-07-31",
+                "value": null
+            },
+            {
+                "date": "2021-08-31",
+                "value": null
+            },
+            {
+                "date": "2021-09-30",
+                "value": null
+            },
+            {
+                "date": null,
+                "value": null
+            }
+        ],
+        "index": [
+            {
+                "date": "2014-06-30",
+                "value": 10000.0
+            },
+            {
+                "date": "2014-07-31",
+                "value": 10007.059556033317
+            },
+            {
+                "date": "2014-08-31",
+                "value": 10402.302685142062
+            },
+            {
+                "date": "2014-09-30",
+                "value": 10318.418476409246
+            },
+            {
+                "date": "2014-10-31",
+                "value": 10532.049686811304
+            },
+            {
+                "date": "2014-11-30",
+                "value": 10946.926754782082
+            },
+            {
+                "date": "2014-12-31",
+                "value": 10786.881471207866
+            },
+            {
+                "date": "2015-01-31",
+                "value": 11026.559224535355
+            },
+            {
+                "date": "2015-02-28",
+                "value": 11309.124334179936
+            },
+            {
+                "date": "2015-03-31",
+                "value": 11601.027522595015
+            },
+            {
+                "date": "2015-04-30",
+                "value": 11533.696711231818
+            },
+            {
+                "date": "2015-05-31",
+                "value": 11600.826083011883
+            },
+            {
+                "date": "2015-06-30",
+                "value": 10994.515166160767
+            },
+            {
+                "date": "2015-07-31",
+                "value": 11174.778191145719
+            },
+            {
+                "date": "2015-08-31",
+                "value": 10573.411251669193
+            },
+            {
+                "date": "2015-09-30",
+                "value": 10354.243773001766
+            },
+            {
+                "date": "2015-10-31",
+                "value": 10959.707319440897
+            },
+            {
+                "date": "2015-11-30",
+                "value": 11147.51606577348
+            },
+            {
+                "date": "2015-12-31",
+                "value": 11188.346762923711
+            },
+            {
+                "date": "2016-01-31",
+                "value": 10930.07895127606
+            },
+            {
+                "date": "2016-02-29",
+                "value": 11054.883609878592
+            },
+            {
+                "date": "2016-03-31",
+                "value": 11517.203425229975
+            },
+            {
+                "date": "2016-04-30",
+                "value": 11481.205638800533
+            },
+            {
+                "date": "2016-05-31",
+                "value": 11572.14230836123
+            },
+            {
+                "date": "2016-06-30",
+                "value": 12530.699886226033
+            },
+            {
+                "date": "2016-07-31",
+                "value": 13166.479472414365
+            },
+            {
+                "date": "2016-08-31",
+                "value": 13395.345827750174
+            },
+            {
+                "date": "2016-09-30",
+                "value": 13589.736408323986
+            },
+            {
+                "date": "2016-10-31",
+                "value": 14225.428297825469
+            },
+            {
+                "date": "2016-11-30",
+                "value": 14013.125691985862
+            },
+            {
+                "date": "2016-12-31",
+                "value": 14492.431671496282
+            },
+            {
+                "date": "2017-01-31",
+                "value": 14619.69619756021
+            },
+            {
+                "date": "2017-02-28",
+                "value": 15199.960382830406
+            },
+            {
+                "date": "2017-03-31",
+                "value": 15322.809296221849
+            },
+            {
+                "date": "2017-04-30",
+                "value": 15046.535349390184
+            },
+            {
+                "date": "2017-05-31",
+                "value": 15427.518359644451
+            },
+            {
+                "date": "2017-06-30",
+                "value": 15400.637457154231
+            },
+            {
+                "date": "2017-07-31",
+                "value": 15593.952986114326
+            },
+            {
+                "date": "2017-08-31",
+                "value": 16021.706545690055
+            },
+            {
+                "date": "2017-09-30",
+                "value": 15692.303230846013
+            },
+            {
+                "date": "2017-10-31",
+                "value": 16187.799401111462
+            },
+            {
+                "date": "2017-11-30",
+                "value": 16196.862393269217
+            },
+            {
+                "date": "2017-12-31",
+                "value": 16482.378699560326
+            },
+            {
+                "date": "2018-01-31",
+                "value": 16559.394715592145
+            },
+            {
+                "date": "2018-02-28",
+                "value": 16383.249252175796
+            },
+            {
+                "date": "2018-03-31",
+                "value": 15765.559347921419
+            },
+            {
+                "date": "2018-04-30",
+                "value": 16226.751680356481
+            },
+            {
+                "date": "2018-05-31",
+                "value": 16811.78594960602
+            },
+            {
+                "date": "2018-06-30",
+                "value": 16857.565043495008
+            },
+            {
+                "date": "2018-07-31",
+                "value": 17489.213438408435
+            },
+            {
+                "date": "2018-08-31",
+                "value": 17802.421367395604
+            },
+            {
+                "date": "2018-09-30",
+                "value": 17841.762329745055
+            },
+            {
+                "date": "2018-10-31",
+                "value": 16857.177250622197
+            },
+            {
+                "date": "2018-11-30",
+                "value": 17147.92336251427
+            },
+            {
+                "date": "2018-12-31",
+                "value": 15992.26359674579
+            },
+            {
+                "date": "2019-01-31",
+                "value": 16700.168582726055
+            },
+            {
+                "date": "2019-02-28",
+                "value": 16951.45600461177
+            },
+            {
+                "date": "2019-03-31",
+                "value": 17532.51242135249
+            },
+            {
+                "date": "2019-04-30",
+                "value": 18119.11434698831
+            },
+            {
+                "date": "2019-05-31",
+                "value": 17656.15617807393
+            },
+            {
+                "date": "2019-06-30",
+                "value": 18624.367753209128
+            },
+            {
+                "date": "2019-07-31",
+                "value": 19409.24535151519
+            },
+            {
+                "date": "2019-08-31",
+                "value": 19069.561832877152
+            },
+            {
+                "date": "2019-09-30",
+                "value": 19266.607089541692
+            },
+            {
+                "date": "2019-10-31",
+                "value": 18864.513700377818
+            },
+            {
+                "date": "2019-11-30",
+                "value": 19337.355567740487
+            },
+            {
+                "date": "2019-12-31",
+                "value": 19548.89403463389
+            },
+            {
+                "date": "2020-01-31",
+                "value": 19426.570473067542
+            },
+            {
+                "date": "2020-02-29",
+                "value": 18424.66526431616
+            },
+            {
+                "date": "2020-03-31",
+                "value": 16422.462245660085
+            },
+            {
+                "date": "2020-04-30",
+                "value": 17868.311299859022
+            },
+            {
+                "date": "2020-05-31",
+                "value": 19050.251795015956
+            },
+            {
+                "date": "2020-06-30",
+                "value": 19654.53274931469
+            },
+            {
+                "date": "2020-07-31",
+                "value": 19456.55005883262
+            },
+            {
+                "date": "2020-08-31",
+                "value": 20258.228990213425
+            },
+            {
+                "date": "2020-09-30",
+                "value": 20302.62742080071
+            },
+            {
+                "date": "2020-10-31",
+                "value": 19814.379200992684
+            },
+            {
+                "date": "2020-11-30",
+                "value": 21577.249700391636
+            },
+            {
+                "date": "2020-12-31",
+                "value": 22054.142681685255
+            },
+            {
+                "date": "2021-01-31",
+                "value": 21856.29920996561
+            },
+            {
+                "date": "2021-02-28",
+                "value": 21990.763530598597
+            },
+            {
+                "date": "2021-03-31",
+                "value": 22919.380326484243
+            },
+            {
+                "date": "2021-04-30",
+                "value": 23838.098922455072
+            },
+            {
+                "date": "2021-05-31",
+                "value": 23607.05967251968
+            },
+            {
+                "date": "2021-06-30",
+                "value": 24573.2629858224
+            },
+            {
+                "date": "2021-07-31",
+                "value": 24580.785548615593
+            },
+            {
+                "date": "2021-08-31",
+                "value": 25456.362825510525
+            },
+            {
+                "date": "2021-09-30",
+                "value": 24946.352591607138
+            },
+            {
+                "date": "2021-10-20",
+                "value": 25454.814362477577
+            }
+        ],
+        "category": []
+    },
+    "fundFlowData": [
+        {
+            "date": "2011-01-31",
+            "value": null
+        },
+        {
+            "date": "2011-02-28",
+            "value": null
+        },
+        {
+            "date": "2011-03-31",
+            "value": null
+        },
+        {
+            "date": "2011-04-30",
+            "value": null
+        },
+        {
+            "date": "2011-05-31",
+            "value": null
+        },
+        {
+            "date": "2011-06-30",
+            "value": null
+        },
+        {
+            "date": "2011-07-31",
+            "value": null
+        },
+        {
+            "date": "2011-08-31",
+            "value": null
+        },
+        {
+            "date": "2011-09-30",
+            "value": null
+        },
+        {
+            "date": "2011-10-31",
+            "value": null
+        },
+        {
+            "date": "2011-11-30",
+            "value": null
+        },
+        {
+            "date": "2011-12-31",
+            "value": null
+        },
+        {
+            "date": "2012-01-31",
+            "value": null
+        },
+        {
+            "date": "2012-02-29",
+            "value": null
+        },
+        {
+            "date": "2012-03-31",
+            "value": null
+        },
+        {
+            "date": "2012-04-30",
+            "value": null
+        },
+        {
+            "date": "2012-05-31",
+            "value": null
+        },
+        {
+            "date": "2012-06-30",
+            "value": null
+        },
+        {
+            "date": "2012-07-31",
+            "value": null
+        },
+        {
+            "date": "2012-08-31",
+            "value": null
+        },
+        {
+            "date": "2012-09-30",
+            "value": null
+        },
+        {
+            "date": "2012-10-31",
+            "value": null
+        },
+        {
+            "date": "2012-11-30",
+            "value": null
+        },
+        {
+            "date": "2012-12-31",
+            "value": null
+        },
+        {
+            "date": "2013-01-31",
+            "value": null
+        },
+        {
+            "date": "2013-02-28",
+            "value": null
+        },
+        {
+            "date": "2013-03-31",
+            "value": null
+        },
+        {
+            "date": "2013-04-30",
+            "value": null
+        },
+        {
+            "date": "2013-05-31",
+            "value": null
+        },
+        {
+            "date": "2013-06-30",
+            "value": null
+        },
+        {
+            "date": "2013-07-31",
+            "value": null
+        },
+        {
+            "date": "2013-08-31",
+            "value": null
+        },
+        {
+            "date": "2013-09-30",
+            "value": null
+        },
+        {
+            "date": "2013-10-31",
+            "value": null
+        },
+        {
+            "date": "2013-11-30",
+            "value": null
+        },
+        {
+            "date": "2013-12-31",
+            "value": null
+        },
+        {
+            "date": "2014-01-31",
+            "value": null
+        },
+        {
+            "date": "2014-02-28",
+            "value": null
+        },
+        {
+            "date": "2014-03-31",
+            "value": null
+        },
+        {
+            "date": "2014-04-30",
+            "value": null
+        },
+        {
+            "date": "2014-05-31",
+            "value": null
+        },
+        {
+            "date": "2014-06-30",
+            "value": null
+        },
+        {
+            "date": "2014-07-31",
+            "value": null
+        },
+        {
+            "date": "2014-08-31",
+            "value": null
+        },
+        {
+            "date": "2014-09-30",
+            "value": null
+        },
+        {
+            "date": "2014-10-31",
+            "value": null
+        },
+        {
+            "date": "2014-11-30",
+            "value": null
+        },
+        {
+            "date": "2014-12-31",
+            "value": null
+        },
+        {
+            "date": "2015-01-31",
+            "value": null
+        },
+        {
+            "date": "2015-02-28",
+            "value": null
+        },
+        {
+            "date": "2015-03-31",
+            "value": null
+        },
+        {
+            "date": "2015-04-30",
+            "value": null
+        },
+        {
+            "date": "2015-05-31",
+            "value": null
+        },
+        {
+            "date": "2015-06-30",
+            "value": null
+        },
+        {
+            "date": "2015-07-31",
+            "value": null
+        },
+        {
+            "date": "2015-08-31",
+            "value": null
+        },
+        {
+            "date": "2015-09-30",
+            "value": null
+        },
+        {
+            "date": "2015-10-31",
+            "value": null
+        },
+        {
+            "date": "2015-11-30",
+            "value": null
+        },
+        {
+            "date": "2015-12-31",
+            "value": null
+        },
+        {
+            "date": "2016-01-31",
+            "value": null
+        },
+        {
+            "date": "2016-02-29",
+            "value": null
+        },
+        {
+            "date": "2016-03-31",
+            "value": null
+        },
+        {
+            "date": "2016-04-30",
+            "value": null
+        },
+        {
+            "date": "2016-05-31",
+            "value": null
+        },
+        {
+            "date": "2016-06-30",
+            "value": null
+        },
+        {
+            "date": "2016-07-31",
+            "value": null
+        },
+        {
+            "date": "2016-08-31",
+            "value": null
+        },
+        {
+            "date": "2016-09-30",
+            "value": null
+        },
+        {
+            "date": "2016-10-31",
+            "value": null
+        },
+        {
+            "date": "2016-11-30",
+            "value": null
+        },
+        {
+            "date": "2016-12-31",
+            "value": null
+        },
+        {
+            "date": "2017-01-31",
+            "value": null
+        },
+        {
+            "date": "2017-02-28",
+            "value": null
+        },
+        {
+            "date": "2017-03-31",
+            "value": null
+        },
+        {
+            "date": "2017-04-30",
+            "value": null
+        },
+        {
+            "date": "2017-05-31",
+            "value": null
+        },
+        {
+            "date": "2017-06-30",
+            "value": null
+        },
+        {
+            "date": "2017-07-31",
+            "value": null
+        },
+        {
+            "date": "2017-08-31",
+            "value": null
+        },
+        {
+            "date": "2017-09-30",
+            "value": null
+        },
+        {
+            "date": "2017-10-31",
+            "value": null
+        },
+        {
+            "date": "2017-11-30",
+            "value": null
+        },
+        {
+            "date": "2017-12-31",
+            "value": null
+        },
+        {
+            "date": "2018-01-31",
+            "value": null
+        },
+        {
+            "date": "2018-02-28",
+            "value": null
+        },
+        {
+            "date": "2018-03-31",
+            "value": null
+        },
+        {
+            "date": "2018-04-30",
+            "value": null
+        },
+        {
+            "date": "2018-05-31",
+            "value": null
+        },
+        {
+            "date": "2018-06-30",
+            "value": null
+        },
+        {
+            "date": "2018-07-31",
+            "value": null
+        },
+        {
+            "date": "2018-08-31",
+            "value": null
+        },
+        {
+            "date": "2018-09-30",
+            "value": null
+        },
+        {
+            "date": "2018-10-31",
+            "value": null
+        },
+        {
+            "date": "2018-11-30",
+            "value": null
+        },
+        {
+            "date": "2018-12-31",
+            "value": null
+        },
+        {
+            "date": "2019-01-31",
+            "value": null
+        },
+        {
+            "date": "2019-02-28",
+            "value": null
+        },
+        {
+            "date": "2019-03-31",
+            "value": null
+        },
+        {
+            "date": "2019-04-30",
+            "value": null
+        },
+        {
+            "date": "2019-05-31",
+            "value": null
+        },
+        {
+            "date": "2019-06-30",
+            "value": null
+        },
+        {
+            "date": "2019-07-31",
+            "value": null
+        },
+        {
+            "date": "2019-08-31",
+            "value": null
+        },
+        {
+            "date": "2019-09-30",
+            "value": null
+        },
+        {
+            "date": "2019-10-31",
+            "value": null
+        },
+        {
+            "date": "2019-11-30",
+            "value": null
+        },
+        {
+            "date": "2019-12-31",
+            "value": null
+        },
+        {
+            "date": "2020-01-31",
+            "value": null
+        },
+        {
+            "date": "2020-02-29",
+            "value": null
+        },
+        {
+            "date": "2020-03-31",
+            "value": null
+        },
+        {
+            "date": "2020-04-30",
+            "value": null
+        },
+        {
+            "date": "2020-05-31",
+            "value": null
+        },
+        {
+            "date": "2020-06-30",
+            "value": null
+        },
+        {
+            "date": "2020-07-31",
+            "value": null
+        },
+        {
+            "date": "2020-08-31",
+            "value": null
+        },
+        {
+            "date": "2020-09-30",
+            "value": null
+        },
+        {
+            "date": "2020-10-31",
+            "value": null
+        },
+        {
+            "date": "2020-11-30",
+            "value": null
+        },
+        {
+            "date": "2020-12-31",
+            "value": null
+        },
+        {
+            "date": "2021-01-31",
+            "value": null
+        },
+        {
+            "date": "2021-02-28",
+            "value": null
+        },
+        {
+            "date": "2021-03-31",
+            "value": null
+        },
+        {
+            "date": "2021-04-30",
+            "value": null
+        },
+        {
+            "date": "2021-05-31",
+            "value": null
+        },
+        {
+            "date": "2021-06-30",
+            "value": null
+        },
+        {
+            "date": "2021-07-31",
+            "value": null
+        },
+        {
+            "date": "2021-08-31",
+            "value": null
+        },
+        {
+            "date": "2021-09-30",
+            "value": null
+        },
+        {
+            "date": "2021-10-31",
+            "value": null
+        },
+        {
+            "date": "2021-11-30",
+            "value": null
+        },
+        {
+            "date": "2021-12-31",
+            "value": null
+        }
+    ],
+    "managerChange": [
+        {
+            "date": "2014-06-30 00:00:00.0",
+            "value": "full"
+        },
+        {
+            "date": "2019-06-30 00:00:00.0",
+            "value": "partial"
+        }
+    ],
+    "table": {
+        "columnDefs": [
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "YTD"
+        ],
+        "growth10KReturnData": [
+            {
+                "label": "fund",
+                "endDate": "2021-10-21T15:50:44.237",
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    "-2.75001",
+                    "13.39747",
+                    "26.98503",
+                    "-13.21183",
+                    "21.20702",
+                    "6.74922",
+                    "0.0"
+                ],
+                "epFlag": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            {
+                "label": "category",
+                "endDate": "2021-10-21T15:50:44.237",
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    "0.0"
+                ],
+                "epFlag": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            {
+                "label": "index",
+                "endDate": "2021-10-20T00:00:00.000",
+                "datum": [
+                    "-6.1612253329",
+                    "11.8156355578",
+                    "21.0990969524",
+                    "11.3425762696",
+                    "3.6264142569",
+                    "29.2621505564",
+                    "13.5016330661",
+                    "-2.9735666272",
+                    "22.2396930044",
+                    "12.8152916445",
+                    "15.4196516561"
+                ],
+                "epFlag": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            {
+                "label": "percentileRank",
+                "endDate": null,
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "epFlag": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            {
+                "label": "fundNumber",
+                "endDate": null,
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "epFlag": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ]
+            },
+            {
+                "label": "categoryName",
+                "endDate": null,
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "epFlag": []
+            },
+            {
+                "label": "categoryNameAbbr",
+                "endDate": null,
+                "datum": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "epFlag": []
+            }
+        ]
+    },
+    "currentValues": [
+        {
+            "type": "fund",
+            "name": null,
+            "baseCurrency": "GBP",
+            "currentValue": null,
+            "currentSymbol": "£"
+        },
+        {
+            "type": "index",
+            "name": "",
+            "baseCurrency": "GBP",
+            "currentValue": 25454.814362477577,
+            "currentSymbol": "£"
+        },
+        {
+            "type": "category",
+            "name": "",
+            "baseCurrency": "GBP",
+            "currentValue": null,
+            "currentSymbol": "£"
+        }
+    ],
+    "instrumentId": null,
+    "fundFlowQuarterlyData": [],
+    "isLimitAgeData": false,
+    "cur": "GBP"
+}

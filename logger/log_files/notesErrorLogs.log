@@ -41,3 +41,83 @@
 {"level":"error","message":"Status: 500: notesModel validation failed: userID: Path `userID` is required.","timestamp":"2021-09-18T19:32:01.961Z"}
 {"level":"error","message":"Status: 404: Note not found","timestamp":"2021-09-18T19:32:03.620Z"}
 {"level":"error","message":"Status: 500: Cannot read property 'isDeleted' of null","timestamp":"2021-09-18T19:32:03.623Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T05:29:04.274Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T05:30:05.712Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T06:00:07.828Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T06:28:57.116Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T06:55:49.730Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T07:02:45.556Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T07:02:46.844Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:03.570Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:50.838Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:52.573Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:53.171Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:53.589Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:53.967Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:54.329Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:54.701Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:55.065Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:55.488Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:05:55.866Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:06:25.215Z"}
+{"level":"error","message":"Status: 500: notesModel validation failed: description: Path `description` is required.","timestamp":"2021-10-20T09:06:27.887Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T10:02:27.563Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:56:11.042Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-20T11:57:53.248Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:58:04.232Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:58:07.453Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:58:29.311Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:58:34.520Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:58:41.943Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:59:32.399Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:59:36.429Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:59:39.695Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:59:42.687Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T11:59:47.609Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T12:01:17.143Z"}
+{"level":"error","message":"Status: 500: Cannot read property 'save' of undefined","timestamp":"2021-10-20T12:03:02.054Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T03:10:58.681Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:48:29.550Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:50:19.932Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:50:20.873Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:51:18.901Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:51:33.133Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:51:36.571Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:52:29.405Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:52:32.986Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:52:33.634Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:52:34.145Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:53:35.549Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:54:27.988Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:54:32.537Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:55:33.060Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:57:53.492Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:57:57.089Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T08:58:34.068Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:00:10.542Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:00:25.285Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:00:32.445Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:01:34.028Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:01:34.481Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:01:34.793Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:02:05.164Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-21T09:06:48.045Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:49:01.137Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:49:02.436Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:49:02.940Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:49:03.732Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:49:04.060Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T02:50:29.779Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T03:36:30.918Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T03:36:36.564Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T03:38:01.245Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T03:38:53.215Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T05:40:09.788Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T08:02:36.378Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T08:02:45.536Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T08:02:48.487Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T10:01:07.058Z"}
+{"level":"error","message":"Status: 500: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T10:08:24.585Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-22T10:08:31.370Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-23T03:00:47.497Z"}
+{"level":"error","message":"Status: 404: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"notesModel\"","timestamp":"2021-10-23T03:01:05.256Z"}

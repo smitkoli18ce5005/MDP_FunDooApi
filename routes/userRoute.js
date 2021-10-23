@@ -5,7 +5,7 @@ const auth = require('../middleware/auth')
 
 userRouter.get('/getAllUsers', auth.verifyToken, userController.getAllUsers)
 
-userRouter.get('/getUser/:id', auth.verifyToken, userController.getUserByID, userController.displayUser)
+userRouter.get('/getUser', auth.verifyToken, userController.getUserByID, userController.displayUser)
 
 userRouter.delete('/deleteUser/:id', auth.verifyToken, userController.getUserByID, userController.deleteUser)
 
